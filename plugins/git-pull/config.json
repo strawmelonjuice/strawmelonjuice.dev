@@ -1,0 +1,5 @@
+{
+    "enabled": false,
+    "PullInterval": "7200000",
+    "PullonStarts": true
+}
