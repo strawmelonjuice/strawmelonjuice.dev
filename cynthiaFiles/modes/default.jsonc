@@ -1,7 +1,7 @@
 [
 	"default",
 	{
-		"sitename": "My Cynthia site!",
+		"sitename": "Mar's site",
 		"stylefile": "default.css",
 		"handlebar": {
 			"post": "default",
