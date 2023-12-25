@@ -56,7 +56,7 @@
                 title="Being a princess is a full time job <3" class="badge" loading="lazy">
             <img src="/assets/img/badges/y2k-compliant.gif" alt="Y2K-compliant"
                 title="We survived! Or... well this site is from 2023. uhm." class="badge" loading="lazy">
-            <img src="/assets/img/badges/transles80×31.png" alt="trans-lesbian flag" title="I'm trans, and girls"
+            <img src="/assets/img/badges/transles80x31.png" alt="trans-lesbian flag" title="I'm trans, and girls"
                 class="badge" loading="lazy">
             <img src="https://blinkies.cafe/b/display/blinkiesCafe-badge.gif" alt="blinkies.cafe"
                 title="[Clickable] blinkies.cafe | make your own blinkies!"
@@ -72,9 +72,11 @@
             badges.appendChild(badges.children[Math.random() * i | 0]);
         }
     </script>
-    <main>{{{content}}}</main>
+    <main class="content" id="pagecontent">
+        {{{content}}}
+    </main>
     {{{infoshow}}}
-    <div id="second-link-menu">{{{menu2}}}<div style="text-align: center; position:absolute; width: 20vw; bottom: 15px">
+    <div class="bottombar" id="mybottombar">{{{menu2}}}<div style="text-align: center; position:absolute; width: 20vw; bottom: 15px">
         </div>
 
 </body>

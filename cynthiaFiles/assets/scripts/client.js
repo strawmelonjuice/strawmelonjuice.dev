@@ -119,3 +119,26 @@ if (document.getElementById("cynthiapageinfoshowdummyelem") != null) {
         pageinfosidebar_rollup();
     });
 }
+let hlimg_options;
+
+console.log('View mode of this page is: "' + pagemetainfo.mode + '"');
+switch (pagemetainfo.mode) {
+    case "blog":
+        hlimg_options = {
+            styling_imageshow_zIndex: 900,
+            styling_hlimg_maxwidth: "70%",
+        }
+        break;
+    case "project":
+        hlimg_options = {
+            styling_imageshow_zIndex: 900,
+            styling_hlimg_maxwidth: "70%",
+        }
+        break;
+    default:
+        hlimg_options = {
+            styling_imageshow_zIndex: 900,
+            styling_hlimg_maxwidth: "70%",
+        }
+        break;
+}

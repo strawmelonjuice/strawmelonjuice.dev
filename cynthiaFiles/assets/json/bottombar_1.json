@@ -1,0 +1,14 @@
+[
+    {
+        "to": "/?p=1",
+        "name": "<span class='emoji-block'>👋</span> About me"
+    },
+    {
+        "to": "/links",
+        "name": "<span class='emoji-block'>&#128206;</span> Links by me"
+    },
+    {
+        "to": "mailto:mar@strawmelonjuice.com",
+        "name": "<span class='emoji-block'>📧</span> Email me"
+    }
+]

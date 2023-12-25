@@ -2,18 +2,23 @@
 	"default",
 	{
 		"sitename": "Mar's site",
-		"stylefile": "default.css",
+		"stylefile": "main.css",
 		"handlebar": {
-			"post": "default",
-			"page": "default"
+			"post": "main",
+			"page": "main"
 		},
 		"menulinks": [
-			{ "name": "A home page!", "href": "/" },
-			{ "name": "Posts!", "href": "/p/posts/" },
-			{ "name": "Another page", "href": "/p/2" },
 			{
-				"name": "About Cynthia",
-				"href": "/p/about"
+				"name": "<img src=\"/assets/img/Strawmelonjuice.webp\" class=\"emoji-block\"> Home",
+				"href": "/"
+			},
+			{
+				"name": "<img src=\"/assets/img/sbm_512%C3%97512.png\" class=\"emoji-block\"> Mar's blog! 🤍",
+				"href": "/p/blog/"
+			},
+			{
+				"name": "<span class=\"emoji-block\">🤓",
+				"href": "/p/projects"
 			}
 		]
 	}
