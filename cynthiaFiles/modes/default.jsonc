@@ -13,12 +13,26 @@
 				"href": "/"
 			},
 			{
-				"name": "<img src=\"/assets/img/sbm_512%C3%97512.png\" class=\"emoji-block\"> Mar's blog! 🤍",
+				"name": "<img src=\"/assets/img/sbm_512%C3%97512.png\" class=\"emoji-block\"> Mar's blog! &#x1F90D;",
 				"href": "/p/blog/"
 			},
 			{
-				"name": "<span class=\"emoji-block\">🤓",
+				"name": "<span class=\"emoji-block\">&#129299;</span> Projects",
 				"href": "/p/projects"
+			}
+		],
+		"menu2links": [
+			{
+				"href": "/?p=1",
+				"name": "<span class='emoji-block'>&#x1F44B;</span> About me"
+			},
+			{
+				"href": "/links",
+				"name": "<span class='emoji-block'>&#128206;</span> Links by me"
+			},
+			{
+				"href": "mailto:mar@strawmelonjuice.com",
+				"name": "<span class='emoji-block'>&#x1F4E7;</span> Email me"
 			}
 		]
 	}
