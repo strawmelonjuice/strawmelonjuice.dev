@@ -3,6 +3,7 @@
 	{
 		"sitename": "Mar's site",
 		"stylefile": "main.css",
+		"favicon": "img/Strawmelonjuice.png",
 		"handlebar": {
 			"post": "main",
 			"page": "main"

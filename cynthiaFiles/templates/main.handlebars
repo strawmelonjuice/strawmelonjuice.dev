@@ -1,5 +1,9 @@
 <head>
     {{{head}}}
+    <!-- Removed ads, instead, hope people donate. I rlly do, can't afford this fucking site without ad revenue nor donations -->
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+        data-id="JustMarOK" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FF813F"
+        data-position="left" data-x_margin="10" data-y_margin="30"></script>
 </head>
 
 <body>
@@ -20,9 +24,9 @@
                     title="[Clickable] This page works better on a computer than on a smartphone :3"
                     onclick="window.open('/assets/img/badges/blinkiesCafe-xD.gif');" class="badge clickable-badge"
                     loading="lazy">
-                <img src="/assets/img/badges/php_copy1.gif" alt="PHP powered"
+                {{!-- <img src="/assets/img/badges/php_copy1.gif" alt="PHP powered"
                     title="[Clickable] This website runs on PHP8" onclick="window.open('https://php.net/');"
-                    class="badge clickable-badge" loading="lazy">
+                    class="badge clickable-badge" loading="lazy"> --}}
                 <img src="/assets/img/badges/blinkiesCafe-tumblr-grrll.gif" alt="Tumblr"
                     title="[Clickable] Tumblr Tumblr Tumblr"
                     onclick="window.open('https://www.tumblr.com/strawmelonjuice');" class="badge clickable-badge"
@@ -70,9 +74,12 @@
         <script>
             // Randomnises the badgies' order
             var badges = document.querySelector('div.badgearea');
-            var innerbadges = document.querySelector('div.innerbadgies');
-            for (var i = innerbadges.children.length; i >= 0; i--) {
-                innerbadges.appendChild(innerbadges.children[Math.random() * i | 0]);
+            var innerbadges = document.querySelector('div#innerbadgies');
+            if (innerbadges !== null) {
+                for (var i = innerbadges.children.length; i >= 0; i--) {
+                    innerbadges.appendChild(innerbadges.children[Math.random() * i | 0]);
+                }
+                console.info("Badgies are now randomnised!")
             }
             // Allows for big or smoll badgies
             function bigbadgies() {
