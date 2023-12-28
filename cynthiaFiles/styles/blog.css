@@ -1,3 +1,5 @@
+@import url('/assets/css/global.css');
+
 body.light-theme {
     --color-slot-01: #a7cec5;
     --color-slot-02: #000000;
@@ -1051,6 +1053,9 @@ h1.login-title {
 /* .post-listpreview #post-listpreview-h {
     border-bottom: solid 2px #000;
 } */
+table.post-listpreview {
+    width: 100%;
+}
 .post-listpreview th {
     /* text-decoration: underline; */
     font-size: 22px;
