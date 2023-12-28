@@ -71,26 +71,6 @@
         </div>
         <a href="/p/support" id="donateextrasidebarlink" class="menulink"><span class="emoji-block">&#x1F4B8;</span>
             Support me</a>
-        <script>
-            // Randomnises the badgies' order
-            var badges = document.querySelector('div.badgearea');
-            var innerbadges = document.querySelector('div#innerbadgies');
-            if (innerbadges !== null) {
-                for (var i = innerbadges.children.length; i >= 0; i--) {
-                    innerbadges.appendChild(innerbadges.children[Math.random() * i | 0]);
-                }
-                console.info("Badgies are now randomnised!")
-            }
-            // Allows for big or smoll badgies
-            function bigbadgies() {
-                badges.style.height = "fit-content";
-            }
-            function smollbadgies() {
-                if (badges.style.minHeight !== "fit-content") {
-                    badges.style.height = "20vh";
-                }
-            }
-        </script>
     </div>
     <main class="content" id="pagecontent">
         {{{content}}}
