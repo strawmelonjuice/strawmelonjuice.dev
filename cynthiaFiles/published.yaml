@@ -17,7 +17,7 @@
 - title: Example post 3
   id: example-post-3
   short: Just an example post!
-  mode: default
+  mode: blog
   type: post
   category: Examples
   tags:
@@ -51,7 +51,7 @@
   dates:
     published: 1900414697
     altered: 1700414697
-- id: getting/started
+- id: support
   type: page
   title: Getting started with CynthiaCMS
   short: "Getting started, yeehaw."
@@ -61,9 +61,8 @@
     published: 1689023804
   content:
     markupType: markdown
-    location: external
-    data: >-
-      https: //raw.githubusercontent.com/strawmelonjuice/cynthiadocs/main/site/pages/guide.md
+    location: local
+    data: support.md
   mode: strawmelonjuice-cynthia
 - id: "2"
   title: A second page!
