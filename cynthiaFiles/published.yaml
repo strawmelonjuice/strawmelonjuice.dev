@@ -4,7 +4,7 @@
   author:
     name: Mar (@strawmelonjuice)
     thumbnail: >-
-      https: //avatars.githubusercontent.com/u/101558380?s=400&u=aa8f776b3e11f02130575d1b46851cca05a0c981&v=4
+      https://avatars.githubusercontent.com/u/101558380?s=400&u=aa8f776b3e11f02130575d1b46851cca05a0c981&v=4
   content:
     markupType: markdown
     location: local
@@ -23,7 +23,9 @@
   tags:
     - three
   author:
-    name: Mostly you...
+    name: Mar (@strawmelonjuice)
+    thumbnail: >-
+      https://avatars.githubusercontent.com/u/101558380?s=400&u=aa8f776b3e11f02130575d1b46851cca05a0c981&v=4
   content:
     markupType: text
     location: inline
@@ -43,7 +45,9 @@
   type: post
   category: Example posts
   author:
-    name: You & me
+    name: Mar (@strawmelonjuice)
+    thumbnail: >-
+      https://avatars.githubusercontent.com/u/101558380?s=400&u=aa8f776b3e11f02130575d1b46851cca05a0c981&v=4
   content:
     markupType: text
     location: inline
@@ -53,57 +57,24 @@
     altered: 1700414697
 - id: support
   type: page
-  title: Getting started with CynthiaCMS
-  short: "Getting started, yeehaw."
+  pageinfooverride: true
+  title: Support me
+  short: Like what I do? Want to support me? You'll find some links on this page!
   author:
     name: Mar (@strawmelonjuice)
+    thumbnail: >-
+      https://avatars.githubusercontent.com/u/101558380?s=400&u=aa8f776b3e11f02130575d1b46851cca05a0c981&v=4
   dates:
-    published: 1689023804
+    published: 1686237433
+  tags:
+    - donation
+    - support
+    - paypal
+    - buymeacoffee
+    - open-source
   content:
     markupType: markdown
     location: local
     data: support.md
-  mode: strawmelonjuice-cynthia
-- id: "2"
-  title: A second page!
-  type: page
-  content:
-    markupType: text
-    location: inline
-    data: "Hello, this is a second page on Cynthia!"
-- id: about
-  title: About Cynthia
-  short: ""
-  author:
-    name: Mar (@strawmelonjuice)
-  dates:
-    published: 1689023804
-  content:
-    markupType: markdown
-    location: external
-    data: >-
-      https: //raw.githubusercontent.com/strawmelonjuice/CynthiaCMS-JS/main/README.MD
-  mode: strawmelonjuice-cynthia
-  type: page
-- id: changelog
-  title: Cynthia -> Changelog
-  type: page
-  content:
-    markupType: markdown
-    location: local
-    data: ../../changelog.md
-- title: Example post 1
-  id: example-post-1
-  short: An old example post!
   mode: default
-  type: post
-  category: Examples
-  author:
-    name: You & me
-  content:
-    markupType: text
-    location: inline
-    data: An example post!
-  dates:
-    published: 1300114697
-    altered: 1700414697
+
