@@ -52,7 +52,7 @@ if (document.getElementById("cynthiapageinfoshowdummyelem") != null) {
 	}
 	let dates = "";
 	if (typeof pagemetainfo.dates !== "undefined") {
-		if (pagemetainfo.dates.published === pagemetainfo.dates.altered || typeof pagemetainfo.dates.altered == "undefined") {
+		if (typeof pagemetainfo.dates.altered == "undefined" || pagemetainfo.dates.altered == null || pagemetainfo.dates.published === pagemetainfo.dates.altered) {
 			dates = `<li>Posted: <span class="preparsedtimestamp">${(new Date((pagemetainfo.dates.published) * 1000).toLocaleString())}</span></li>`
 		} else {
 			dates = `
