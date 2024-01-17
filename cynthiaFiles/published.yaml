@@ -14,47 +14,11 @@
     altered: 1699658204
   type: page
   mode: default
-- title: Example post 3
-  id: example-post-3
-  short: Just an example post!
-  mode: blog
-  type: post
-  category: Examples
-  tags:
-    - three
-  author:
-    name: Mar (@strawmelonjuice)
-    thumbnail: >-
-      https://avatars.githubusercontent.com/u/101558380?s=400&u=aa8f776b3e11f02130575d1b46851cca05a0c981&v=4
-  content:
-    markupType: text
-    location: inline
-    data: An example post!
-  dates:
-    published: 1700414697
-    altered: 1700414697
 - id: blog
   title: Mar's blog! &#x1F90D;
   postlist: {}
   type: postlist
   mode: blog
-- title: Example post 2
-  id: example-post-2
-  short: A future example post!
-  mode: default
-  type: post
-  category: Example posts
-  author:
-    name: Mar (@strawmelonjuice)
-    thumbnail: >-
-      https://avatars.githubusercontent.com/u/101558380?s=400&u=aa8f776b3e11f02130575d1b46851cca05a0c981&v=4
-  content:
-    markupType: text
-    location: inline
-    data: An example post!
-  dates:
-    published: 1900414697
-    altered: 1700414697
 - id: support
   type: page
   pageinfooverride: true
@@ -77,4 +41,46 @@
     location: local
     data: support.md
   mode: default
-
+- id: projects
+  title: Projects
+  short: I am a creativity addict so I jiggle around with code from time to time.
+  mode: project
+  type: page
+  dates:
+    published: 1686237433
+    altered: 1693564413
+  author:
+    name: Mar (@strawmelonjuice)
+    thumbnail: >-
+      https://avatars.githubusercontent.com/u/101558380?s=400&u=aa8f776b3e11f02130575d1b46851cca05a0c981&v=4
+  content:
+    markupType: markdown
+    location: local
+    data: projects/index.md
+  tags: ["donation", "support", "paypal", "buymeacoffee", "open-source", "github"]
+- id: posts/wordpress-2023-05-30
+  title: No more Wordpress
+  short: This site no longer runs on Wordpress, this is how and why I did it.
+  type: post
+  mode: blog
+  content:
+    markupType: markdown
+    location: local
+    data: post/wordpress-2023-05-30.md
+  category: Meta
+  dates:
+    published: 1685451731
+    altered: 1685451731
+  author:
+    name: Mar (@strawmelonjuice)
+    thumbnail: >-
+      https://avatars.githubusercontent.com/u/101558380?s=400&u=aa8f776b3e11f02130575d1b46851cca05a0c981&v=4
+  tags:
+    - blog
+    - webdev
+    - php
+    - tech
+    - CMS
+    - GitHub
+    - themes
+    - WordPress

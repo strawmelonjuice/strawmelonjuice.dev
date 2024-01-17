@@ -1,0 +1,33 @@
+<head>
+    {{{head}}}
+    <!-- Removed ads, instead, hope people donate. I rlly do, can't afford this fucking site without ad revenue nor donations -->
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+        data-id="JustMarOK" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FF813F"
+        data-position="left" data-x_margin="10" data-y_margin="30"></script>
+</head>
+
+<body>
+    <button class="openbtn" onclick="openNav()">&#x11054;</button>
+    <div class="sidebar" id="mySidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        {{{menu1}}}
+
+        <img src="/assets/img/sbm_2019style_1080%C3%971080.png" id="sbmheaderlogo">
+    </div>
+    <main class="content" id="pagecontent">
+        {{{content}}}
+    </main>
+    {{{infoshow}}}
+    <div class="bottombar" id="mybottombar">
+        <a href="javascript:void(0);" class="icon" onclick="unrollbottombar()">&#9776;</a>{{{menu2}}}
+
+        <a href="javascript:void(0)" onclick="ToggleFilters()" id="filtertoggle" class="accesstoggle"
+            style="padding: 10px;">Contrast</a>
+        <a href="javascript:void(0)" id="daylighttoggle" class="accesstoggle"><img style="max-height: 100%"
+                id="daylighttoggleimg" src="/assets/img/png/strawberry-sun.png" alt="Light mode"
+                onclick="colorSchemeOverride(2)"></a>
+        <a href="javascript:void(0)" onclick="ToggleKitton()" id="kittontoggle" class="accesstoggle"><img
+                src="/assets/img/png/kitton_crab.png"> <span id="kittontoggletext">hide..</span></a>
+    </div>
+
+</body>

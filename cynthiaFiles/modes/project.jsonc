@@ -1,12 +1,12 @@
 [
-	"blog",
+	"project",
 	{
-		"sitename": "Mar's blog! &#x1F90D;",
-		"stylefile": "blog.css",
+		"sitename": "Mar's site",
+		"stylefile": "projects.css",
 		"favicon": "img/Strawmelonjuice.png",
 		"handlebar": {
-			"post": "blog",
-			"page": "blog"
+			"post": "projects",
+			"page": "projects"
 		},
 		"menulinks": [
 			{
