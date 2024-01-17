@@ -14,5 +14,9 @@
 	{
 		"id": "imgmotes",
 		"version": "latest"
+	},
+	{
+		"id": "emoji",
+		"version": "latest"
 	}
 ]
