@@ -1,8 +1,15 @@
-@import "https://strawmelonjuice.com/gfonts.php/https://fonts.googleapis.com/css2?family=Ubuntu&display=swap";
+@import "/es/gfonts/https://fonts.googleapis.com/css2?family=Ubuntu&display=swap";
 
-@import "https://strawmelonjuice.com/gfonts.php/https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap";
+@import "/es/gfonts/https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap";
 
-@import "https://strawmelonjuice.com/gfonts.php/https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap";
+/* @import "/es/gfonts/https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap"; */
+@font-face {
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/es/gfonts/https://fonts.gstatic.com/s/ubuntumono/v15/KFOjCneDtsqEr0keqCMhbBc9.ttf) format('truetype');
+}
+
 
 :root {
     --filter-contrast-backgroundcolor: #a29191;

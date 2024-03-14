@@ -153,7 +153,7 @@ main.content {
 }
 
 
-@import "https://strawmelonjuice.com/gfonts.php/https://fonts.googleapis.com/css2?family=Ubuntu&display=swap";
+@import "/es/gfonts/https://fonts.googleapis.com/css2?family=Ubuntu&display=swap";
 
 body {
     font-family: 'Ubuntu', sans-serif;
