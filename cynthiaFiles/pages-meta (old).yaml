@@ -35,36 +35,6 @@
     altered: 1690758605
   category: My art
   tags: 'art, donut, emoji, drawing, Clip Studio Paint, OCs, OC, OCid:DN'
-- id: posts/art/mousemouse-3.2-textured
-  title: MouseMouse retextured
-  short: The 4K mousemouse I posted earlier in a new papertextured mix!
-  type: post
-  og-image: /assets/img/media/art/MM2-textured.png
-  title-display: true
-  dates:
-    published: 1689715712
-    altered: 1690758605
-  category: My art
-  tags: 'art, tumblr, mouse, mousemouse, mousemaus, Clip Studio Paint, OCs, OC, OCid:MM, paper textured'
-- id: posts/art/brain-lost-misunderstanding
-  title: 'A misunderstanding'
-  short: 'Just trying things out lol'
-  type: post
-  og-image: /assets/img/media/art/a-misunderstanding.png
-  title-display: true
-  content: |
-    - More brainfarts that I turned to art: <code class="taggo">brainfart as art</code>
-
-    <div style="height: 300px"><hl-img preview="https://64.media.tumblr.com/c8d4a3e20145e846bf96bc5ca16da14e/bc5fb4c5e676e41b-93/s1280x1920/ead37ff27590d344cf2a48dc1dd812468256e43e.pnj" alt="MouseMouse!" highlight="/assets/img/media/art/a-misunderstanding.png" href="https://www.tumblr.com/strawmelonjuice/722847916036931584/a-misunderstanding?source=share"></hl-img></div>
-
-    A misunderstanding! Will the bunny-thing eat the mole-thing? I think they'll become friends.
-
-    <span class="notion">This art is mine, you may not download and use this without [asking me](mailto:mar@strawmelonjuice.com) and getting my permission!</span>
-  dates:
-    published: 1689354605
-    altered: 1690984579
-  category: My art
-  tags: 'art, animals, emoji, drawing, Clip Studio Paint, OC, trying things out, paper textured, brainfart as art'
 - id: posts/LDo/230704
   title: Logger-Diary Online is coming back to Mar's home domain.
   short: Logger-Diary Online is coming back to `logger-diary.strawmelonjuice.com` for financial reasons.
@@ -77,17 +47,6 @@
     published: 1688485329
     altered: 1688485329
   tags: 'Logger-Diary.Online, Logger-Diary, updates, Logger-Diary updates, Logger-Diary.online updates'
-- id: posts/art/mousemouse-3.2
-  title: MouseMouse in hi-res!
-  short: MouseMouse redone in a 4k canvas by me!
-  type: post
-  og-image: /assets/img/media/art/MM2.webp
-  title-display: true
-  dates:
-    published: 1688332202
-    altered: 1690758605
-  category: My art
-  tags: 'art, tumblr, mouse, mousemouse, mousemaus, Clip Studio Paint, OCs, OC, OCid:MM'
 - id: posts/ads-no-more
   title: Going ad-less.
   short: First Google Adsense, now adfocus too. Going ad-less.

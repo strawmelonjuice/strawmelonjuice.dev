@@ -151,6 +151,8 @@ Start of own customisations
 
 
 =====================================================================================================================================*/
+// function activate () {
+
 let hlimg_options;
 
 console.log(`View mode of this page is: "${pagemetainfo.mode}"`);
@@ -471,3 +473,4 @@ if (badges !== null) {
 		}
 	};
 }
+// }

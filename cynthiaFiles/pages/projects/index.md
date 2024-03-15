@@ -1,5 +1,10 @@
 Like what I do? [Support me!](/p/support) :heart:
 
+
+<hr>
+
+
+
 I am a creativity addict so I jiggle around with code from time to time. These are some projects of mine:
 
 ## Logger-Diary
@@ -14,15 +19,6 @@ I am a creativity addict so I jiggle around with code from time to time. These a
 - <img src="https://raw.githubusercontent.com/strawmelonjuice/logger-diary.logos/main/Archived/LDLegacy_rounded_2022-2023/logo.png" height="20px" alt="LD Logo"> Logger-Diary Legacy – discontinued
 - <img src="/assets/img/2015logo.png" height="20px" alt="mylog231 logo"> My Log 231 for FreeDOS – discontinued & way too old but I find it funny to mention
 
-## Project FNew
-<blockquote>
-    A social media site that doesn't have a name yet... or a figured out concept
-</blockquote>
-<p><span class="notion">Not yet open source nor publicized</span></p>
-
-
-
-
 
 
 ## WWW-bot <a href="https://github.com/strawmelonjuice/wwwbot-discord" target="_blank"><img src="/assets/img/svg/github-mark.svg" height="20px" class="svgrecolor" alt="GitHub"></a>
@@ -32,27 +28,6 @@ I am a creativity addict so I jiggle around with code from time to time. These a
 
     MIGHT COME BACK AS A CHATBOT!
 </blockquote>
-
-
-## Henri The Datapack <a href="https://github.com/strawmelonjuice/Henri_The_Datapack" target="_blank"><img src="/assets/img/svg/github-mark.svg" height="20px" class="svgrecolor" alt="GitHub"></a>
-
-<blockquote>
-    'A minecraft datapack revolving around a shady guy named Henri', pretty cringe maybe idk
-</blockquote>
-
-## Project Embloidium
-
-<blockquote>
-    A set of chatbots that could add new reactions on themselves (wouldn't call it AI), that I worked on from my 13th till my 17th, on a combination of
-    <ul>
-        <li>Rust</li>
-        <li>Batch (yes, the windows cmd file thing)</li>
-        <li>Electron/NodeJS</li>
-    </ul>
-    With somehow a pretty good result. Mostly.
-</blockquote>
-
-<p><span class="notion">Keeping this code private.</span></p>
 
 
 
@@ -80,13 +55,20 @@ I am a creativity addict so I jiggle around with code from time to time. These a
 
 This site runs on Cynthia now!
 
-## CynthiaWeb
+## CynthiaWeb <a href="https://github.com/strawmelonjuice/CynthiaWebsiteEngine" target="_blank"><img src="/assets/img/svg/github-mark.svg" height="20px" class="svgrecolor" alt="GitHub"></a>
 
 <blockquote>
-    An engine written in Rust that creates websites from mere files, supporting multiple modes and configurations, and is ever extensible through plugins.
+    An engine written in Rust that creates websites from mere files, supporting multiple modes and configurations, and is ever extensible through plugins. --in the making.
 </blockquote>
 
+### Cynthia-Plugins
+- Cynthia-Dash <a href="https://github.com/strawmelonjuice/CynthiaWeb-dash" target="_blank"><img src="/assets/img/svg/github-mark.svg" height="20px" class="svgrecolor" alt="GitHub"></a> — A web dash, wordpress-like. --in the making.
 
+...there's more, but I'm too lazy to add it.
+
+
+
+<hr>
 
 
 Like what I do? [Support me!](/p/support) :heart:

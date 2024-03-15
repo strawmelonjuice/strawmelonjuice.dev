@@ -84,3 +84,87 @@
     - GitHub
     - themes
     - WordPress
+- id: posts/art/mousemouse-3.2-textured
+  content:
+      markupType: markdown
+      location: local
+      data: post/art/mousemouse-3.2-textured.md
+  author:
+    name: Mar (@strawmelonjuice)
+    thumbnail: >-
+      https://avatars.githubusercontent.com/u/101558380?s=400&u=aa8f776b3e11f02130575d1b46851cca05a0c981&v=4
+  title: MouseMouse retextured
+  short: The 4K mousemouse I posted earlier in a new papertextured mix!
+  type: post
+  thumbnail: /assets/img/media/art/MM2-textured.png
+  title-display: true
+  dates:
+    published: 1689715712
+    altered: 1690758605
+  category: My art
+  tags: [art, tumblr, mouse, mousemouse, mousemaus, Clip Studio Paint, OCs, OC, OCid:MM, paper textured]
+
+- id: posts/art/mousemouse-3.2
+  content:
+      markupType: markdown
+      location: local
+      data: post/art/mousemouse-3.2.md
+  author:
+    name: Mar (@strawmelonjuice)
+    thumbnail: >-
+      https://avatars.githubusercontent.com/u/101558380?s=400&u=aa8f776b3e11f02130575d1b46851cca05a0c981&v=4
+  title: MouseMouse in hi-res!
+  short: MouseMouse redone in a 4k canvas by me!
+  type: post
+  thumbnail: /assets/img/media/art/MM2.webp
+  title-display: true
+  dates:
+    published: 1688332202
+    altered: 1690758605
+  category: My art
+  tags: [art, tumblr, mouse, mousemouse, mousemaus, Clip Studio Paint, OCs, OC, OCid:MM]
+- id: sitelist
+  title: Sitelist
+  short: Based on seeing the internet freedom and safety going downhill I decided to start a list of sites and my classification  of them. If you want to edit this list, send a PR on GitHub or email me.
+  mode: project
+  type: page
+  dates:
+    published: 1710540512
+    altered: 1710540512
+  author:
+    name: Mar (@strawmelonjuice)
+    thumbnail: >-
+      https://avatars.githubusercontent.com/u/101558380?s=400&u=aa8f776b3e11f02130575d1b46851cca05a0c981&v=4
+  content:
+    markupType: markdown
+    location: local
+    data: listofsites.md
+  tags: ["freespeech", "open-source", "github"]
+
+- id: posts/art/brain-lost-misunderstanding
+  mode: default
+  title: 'A misunderstanding'
+  short: 'Just trying things out lol'
+  author:
+    name: Mar (@strawmelonjuice)
+    thumbnail: >-
+      https://avatars.githubusercontent.com/u/101558380?s=400&u=aa8f776b3e11f02130575d1b46851cca05a0c981&v=4
+  type: post
+  thumbnail: /assets/img/media/art/a-misunderstanding.png
+  title-display: true
+  content:
+      markupType: markdown
+      location: inline
+      data: |
+        - More brainfarts that I turned to art: <code class="taggo">brainfart as art</code>
+
+        <div style="height: 300px"><hl-img preview="https://64.media.tumblr.com/c8d4a3e20145e846bf96bc5ca16da14e/bc5fb4c5e676e41b-93/s1280x1920/ead37ff27590d344cf2a48dc1dd812468256e43e.pnj" alt="MouseMouse!" highlight="/assets/img/media/art/a-misunderstanding.png" href="https://www.tumblr.com/strawmelonjuice/722847916036931584/a-misunderstanding?source=share"></hl-img></div>
+
+        A misunderstanding! Will the bunny-thing eat the mole-thing? I think they'll become friends.
+
+        <span class="notion">This art is mine, you may not download and use this without [asking me](mailto:mar@strawmelonjuice.com) and getting my permission!</span>
+  dates:
+    published: 1689354605
+    altered: 1690984579
+  category: My art
+  tags: [art, animals, emoji, drawing, Clip Studio Paint, OC, trying things out, paper textured, brainfart as art]
