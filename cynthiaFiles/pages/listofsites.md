@@ -1,6 +1,6 @@
 # Strawmelonjuice's list of web sites
 
-Based on seeing the internet freedom and safety going downhill I decided to start a list of sites and my classification  of them. If you want to edit this list, send a PR on GitHub or email me.
+Based on seeing the internet freedom and safety going downhill I decided to start a list of sites and my classification  of them. If you want to edit this list, [send a PR on GitHub](https://github.com/strawmelonjuice/strawmelonjuice.dev/edit/main/cynthiaFiles/pages/listofsites.md) or [email me](mailto:mar@strawmelonjuice.com).
 
 ### Code of conduct
 > 1. `Proposals for reclassification of sites is allowed for sites already in the lists, not for sites not yet classified.`

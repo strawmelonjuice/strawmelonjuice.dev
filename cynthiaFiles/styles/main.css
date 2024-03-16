@@ -212,8 +212,8 @@ a:not(:hover):not(.menulink) {
 
 @font-face {
     font-family: "TapefontAlt";
-    src: url("/assets/fonts/tapefontalt/TapefontAlt.woff2")format("woff2"),
-        url("/assets/fonts/tapefontalt/TapefontAlt.woff")format("woff"),
+    src:/*  url("/assets/fonts/tapefontalt/TapefontAlt.woff2")format("woff2"),
+        url("/assets/fonts/tapefontalt/TapefontAlt.woff")format("woff"), */
         url("/assets/fonts/tapefontalt/TapefontAlt.ttf")format("truetype"),
         url("assets/fonts/tapefontalt/TapefontAlt.svg")format("svg");
 }

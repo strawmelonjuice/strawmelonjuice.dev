@@ -1,13 +1,21 @@
-@import "/es/gfonts/https://fonts.googleapis.com/css2?family=Ubuntu&display=swap";
+/* @import "/es/gfonts/https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"; */
 
-@import "/es/gfonts/https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap";
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(/assets/fonts/Ubuntu/Ubuntu-Regular.ttf) format('truetype');
+}
+
+/* @import "/es/gfonts/https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap"; */
+@font-face {
+    font-family: 'Noto Color Emoji';
+    src: url(/assets/fonts/Noto_Color_Emoji/NotoColorEmoji-Regular.ttf) format('truetype');
+}
+
 
 /* @import "/es/gfonts/https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap"; */
 @font-face {
     font-family: 'Ubuntu Mono';
-    font-style: normal;
-    font-weight: 400;
-    src: url(/es/gfonts/https://fonts.gstatic.com/s/ubuntumono/v15/KFOjCneDtsqEr0keqCMhbBc9.ttf) format('truetype');
+    src: url(/assets/fonts/Ubuntu_Mono/UbuntuMono-Regular.ttf) format('truetype');
 }
 
 

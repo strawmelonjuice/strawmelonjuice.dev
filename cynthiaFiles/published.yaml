@@ -168,3 +168,20 @@
     altered: 1690984579
   category: My art
   tags: [art, animals, emoji, drawing, Clip Studio Paint, OC, trying things out, paper textured, brainfart as art]
+- id: links
+  title: My important links
+  short: Mar's links
+  morelinks-display: false
+  type: page
+  author:
+    name: Mar (@strawmelonjuice)
+    thumbnail: >-
+      https://avatars.githubusercontent.com/u/101558380?s=400&u=aa8f776b3e11f02130575d1b46851cca05a0c981&v=4
+  content:
+    markupType: markdown
+    location: local
+    data: links.md
+  dates:
+    published: 1683723800
+    altered: 1683723800
+  tags: [linktree, social media, links]

@@ -101,6 +101,7 @@ if (document.getElementById("cynthiapageinfoshowdummyelem") != null) {
 		document.getElementById("pageinfosidebar").style.width = "0";
 		document.getElementById("pageinfosidebar").style.maxHeight = "310";
 		document.getElementById("pageinfosidebartoggle").style.display = "";
+		document.getElementById("pageinfosidebartoggle").style.width = "initial";
 		setTimeout(() => {
 			document.getElementById("pageinfosidebartoggle").style.width = "40";
 			}, 1700);
@@ -116,11 +117,11 @@ if (document.getElementById("cynthiapageinfoshowdummyelem") != null) {
 		document.getElementById("pageinfosidebartoggle").style.width = "0";
 		document.getElementById("pageinfosidebartoggle").style.padding = "0";
 		setTimeout(() => {
-			document.getElementById("pageinfosidebar").style.width = "";
-			}, 1800);
+			document.getElementById("pageinfosidebartoggle").style.width = "40px";
+		}, 1700);
 		setTimeout(() => {
-			document.getElementById("pageinfosidebar").style.height = "";
-			}, 1900);
+			document.getElementById("pageinfosidebartoggle").style.padding = "8px";
+		}, 1800);
 	}
 
 	if (mobileorientation() || window.innerHeight < 350) {

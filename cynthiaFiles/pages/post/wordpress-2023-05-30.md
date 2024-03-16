@@ -15,7 +15,7 @@ I also wanted to get something more in my themes, instead of having to edit an e
 
 ### "Ephew"
 
-My solution to the problems I had? Initially none. Until I scrolled through older projects. "Ephew", the code name for an old social media platform concept, has served me earlier. Ephew as a project, was an absolute mess. But it had so many reusable components that it had helped me out with creating [Logger-Diary Online](https://logger-diary.strawmelonjuice.com/) earlier, and throwing a selection of its code into my VSCode made me built up a new way of approaching my site: It's just a static site anyways.
+My solution to the problems I had? Initially none. Until I scrolled through older projects. "Ephew", the code name for an old social media platform concept, has served me earlier. Ephew as a project, was an absolute mess. But it had so many reusable components that it had helped me out with creating [Logger-Diary Online](https://logger-diary.strawmelonjuice.com/) earlier, and throwing a selection of its code into my code editor made me built up a new way of approaching my site: It's just a static site anyways.
 
 So, here we are. On a static page, served from static files!
 
