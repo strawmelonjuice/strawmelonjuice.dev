@@ -15,7 +15,7 @@ body.light-theme {
 
 @media (orientation: landscape) and (min-width: 800px) {
     main {
-        max-width: 900px;
+        /* max-width: 900px; */
         margin-left: 10vw;
     }
 }
