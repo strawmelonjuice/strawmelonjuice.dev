@@ -19,7 +19,8 @@ PORT=3020
 
 # Generator rules set how Cynthia generates web pages.
 [generator]
-site-baseurl = "https://strawmelonjuice.com"
+site-baseurl = "https://strawmelonjuice.dev"
+og-site-name = "strawmelonjuice dot com"
     [generator.meta]
 
     # Enables or disables pagetags in HTML metatags, these are officially supposed to be good for finding a website, but have been known to 
