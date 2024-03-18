@@ -34,6 +34,10 @@
 			{
 				"href": "mailto:mar@strawmelonjuice.com",
 				"name": "<span class='emoji-block'>&#x1F4E7;</span> Email me"
+			},
+			{
+				"href": "https://strawmelonjuice.com/p/support",
+				"name": "<span class='emoji-block'>&#x1F91D;</span> Support my projects"
 			}
 		]
 	}
