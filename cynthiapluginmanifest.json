@@ -1,1 +1,18 @@
-[{"id":"hlimg","version":"latest"},{"id":"gfonts","version":"latest"},{"id":"git-pull","version":"latest"},{"id":"imgmotes","version":"latest"},{"id":"emoji","version":"latest"}]
+[
+    {
+        "id": "hlimg",
+        "version": "latest"
+    },
+    {
+        "id": "git-pull",
+        "version": "latest"
+    },
+    {
+        "id": "imgmotes",
+        "version": "latest"
+    },
+    {
+        "id": "emoji",
+        "version": "latest"
+    }
+]
