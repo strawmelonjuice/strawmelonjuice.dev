@@ -136,7 +136,7 @@ imgmote {
     text-align: left;
     width: fit-content;
     display: list-item;
-    list-style-image: url('/assets/img/imgmote/exclamationmark.gif');
+    list-style-image: url('/assets/imgmote/exclamationmark.gif');
     margin-bottom: 20px;
     border-radius: 15px;
     padding: 5px;
@@ -144,6 +144,11 @@ imgmote {
 
 .notion:hover:after {
     content: ' \0021';
+}
+
+blockquote.notion {
+    display: block;
+    list-style-image: none;
 }
 
 @media (orientation: landscape) and (min-width: 800px) {
