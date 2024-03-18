@@ -20,7 +20,6 @@ They're pretty self-explanatory, however some explanations are added atop the li
 ## Uncategorized
 Sites that haven't been classified by me (strawmelonjuice), you should add new sites here.
 
-- <https://x.com/>, <https://twitter.com/>: `Initial submission. Will file these later.` - `15/3/2024`
 - <https://reddit.com/>: `Initial submission. Will file these later.` - `15/3/2024`
 
 ## Safe (for now)
@@ -38,6 +37,16 @@ These sites have had some worrysome recent developments or a shady past. Be care
 
 ## Unsafe
 These sites are generally not the ones you will want to rely on. You can use them, but again, be careful.
+
+- > <https://x.com/>, <https://twitter.com/> - `15/3/2024`
+  >
+  > - Elon Musk has taken it over, immediately calling for a purge of "extreme leftism"
+  > - Doesn't moderate hate speech, instead marks it as free speech
+  > - Inconsistent (unfair) moderation
+  > - Hypercapitalisation, pay-to-moderate
+  > - Privacy hazard (tracking)
+
+- 
 
 
 ## Best to stay away
