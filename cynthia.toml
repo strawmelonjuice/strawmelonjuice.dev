@@ -27,6 +27,28 @@ og-site-name = "strawmelonjuice dot com"
 enable-tags = false
 [logging]
 
+[logging.file]
+filename = "./cynthia.log"
+
+enabled = true
+
+cache = true
+
+error = true
+
+warn = true
+
+info = false
+
+requests = true
+
+proxy-requests = false
+
+plugin-asset-requests = false
+
+jsr-errors = true
+
+[logging.console]
 # I'd advise you keep this enabled.
 enabled = true
 
