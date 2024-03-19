@@ -278,7 +278,7 @@ imgmote {
     font-style: italic;
     color: var(--color-slot-9);
     text-align: center;
-    font-size: 150%;
+    font-size: 100%;
 }
 
 .pageinfosidebar {
@@ -315,7 +315,11 @@ blockquote {
     border: 2px outset;
     border-color: var(--color-slot-12);
     color: var(--color-slot-13);
-    font-style: italic
+    font-style: italic;
+    font-family: "Josefin Sans",
+        Verdana,
+        Geneva,
+        sans-serif;
 }
 
 body {
@@ -491,6 +495,15 @@ img.card-img-top {
     max-height: 200px;
     max-width: 200px
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.special {
+    font-family: "Gantari", "Syne";
+}
 
 li.timeline {
     border: 5px solid;
@@ -646,6 +659,7 @@ button {
     text-align: center;
     width: 100%;
     background-color: var(--color-slot-2);
+    font-family: "TapefontAlt";
 }
 
 

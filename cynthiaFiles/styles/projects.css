@@ -136,10 +136,16 @@ main.content {
 .imgmote {
     background-color: var(--color-slot-07);
 }
-.notion {
+.notion, .huge-button, .small-button {
     background-color: var(--color-slot-12);
     color: var(--color-slot-06);
 }
+.notion>.svgrecolor,
+.huge-button>.svgrecolor,
+.small-button > .svgrecolor {
+    filter: invert();
+}
+
 .emoji-block {
     background-color: #54c054;
     border-radius: 20%;
@@ -187,7 +193,7 @@ h6,
     font-style: italic;
     color: var(--color-slot-04);
     text-align: center;
-    font-size: 150%;
+    font-size: 100%;
 }
 
 .pageinfosidebar {
@@ -475,15 +481,17 @@ ul.timeline {
 
 .huge-button {
     border: 0;
-    border-radius: 20px 20px 5px 5px;
+    border-radius: 15px 15px 15px 15px;
     cursor: pointer;
     font-size: 160%;
     height: 50px;
-    margin: 10px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
     outline: 0;
     padding: 17px;
-    text-align: center;
-    width: 90%;
+    align-self: center;
+    width: 75%;
 }
 
 .small-button {
@@ -493,10 +501,12 @@ ul.timeline {
     font-size: 160%;
     height: 35px;
     margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
     outline: 0;
     padding: 17px;
     text-align: center;
-    width: 60%;
+    width: 50%;
 }
 
 .ephew-form {

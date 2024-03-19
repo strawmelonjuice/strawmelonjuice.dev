@@ -2,6 +2,8 @@
 
 Based on seeing the internet freedom and safety going downhill I decided to start a list of sites and my classification  of them. If you want to edit this list, [send a PR on GitHub](https://github.com/strawmelonjuice/strawmelonjuice.dev/edit/main/cynthiaFiles/pages/listofsites.md) or [email me](mailto:mar@strawmelonjuice.com).
 
+<div class="centered"><a href="https://github.com/strawmelonjuice/strawmelonjuice.dev/edit/main/cynthiaFiles/pages/listofsites.md"><button class="huge-button">Propose a change <img src="/assets/img/svg/github-mark.svg" height="20px" class="svgrecolor" alt="GitHub"></button></a></div>
+
 ### Code of conduct
 > 1. `Proposals for reclassification of sites is allowed for sites already in the lists, not for sites not yet classified.`
 > 2. `New sites to be added should be at the end of the "Uncategorized" list.`
@@ -22,9 +24,11 @@ Sites that haven't been classified by me (strawmelonjuice), you should add new s
 
 - <https://reddit.com/>: `Initial submission. Will file these later.` - `15/3/2024`
 
+
 ## Safe (for now)
 Sites that seem to respect their users, and be safe.
 
+- 
 
 ## Be careful
 These sites have had some worrysome recent developments or a shady past. Be careful here.
@@ -38,7 +42,7 @@ These sites have had some worrysome recent developments or a shady past. Be care
 ## Unsafe
 These sites are generally not the ones you will want to rely on. You can use them, but again, be careful.
 
-- > <https://x.com/>, <https://twitter.com/> - `15/3/2024`
+- > <https://x.com/>, <https://twitter.com/> - `18/3/2024`
   >
   > - Elon Musk has taken it over, immediately calling for a purge of "extreme leftism"
   > - Doesn't moderate hate speech, instead marks it as free speech
@@ -46,8 +50,9 @@ These sites are generally not the ones you will want to rely on. You can use the
   > - Hypercapitalisation, pay-to-moderate
   > - Privacy hazard (tracking)
 
-- 
 
 
 ## Best to stay away
 These sites are just hot garbage. Stay away or get burned from them. Watch out.
+
+- 

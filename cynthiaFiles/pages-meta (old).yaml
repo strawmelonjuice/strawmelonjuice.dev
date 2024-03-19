@@ -171,15 +171,6 @@
     altered: 1633519196
   tags: [hell, devil, girl, fiction, 2021, satans daughter, Leafornia's travels, Story ideas]
 #pages
-- id: 1
-  title: About me
-  title-display: false
-  short: About mar
-  type: page
-  dates:
-    published: 1683723800
-    altered: 1683723800
-  tags: [autobiographical, quotes]
 - id: projects/hl-img
   title: HL-img.js > Home
   short: Highlightable images in js.

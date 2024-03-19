@@ -153,10 +153,11 @@
   title: Sitelist
   short: Based on seeing the internet freedom and safety going downhill I decided to start a list of sites and my classification  of them. If you want to edit this list, send a PR on GitHub or email me.
   mode: project
+  pageinfooverride: true
   type: page
   dates:
     published: 1710540512
-    altered: 1710540512
+    altered: 1710871538
   author:
     name: Mar (@strawmelonjuice)
     thumbnail: >-
@@ -289,3 +290,16 @@
     markupType: markdown
     location: external
     data: https://raw.githubusercontent.com/strawmelonjuice/bananen/main/docs/index.md
+- id: me
+  title: About me
+  title-display: false
+  short: About mar
+  type: page
+  content:
+    markupType: markdown
+    location: local
+    data: me.md
+  dates:
+    published: 1683723800
+    altered: 1683723800
+  tags: [autobiographical, quotes]
