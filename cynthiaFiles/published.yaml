@@ -57,7 +57,8 @@
     markupType: markdown
     location: local
     data: projects/index.md
-  tags: ["donation", "support", "paypal", "buymeacoffee", "open-source", "github"]
+  tags:
+    ["donation", "support", "paypal", "buymeacoffee", "open-source", "github"]
 - id: posts/wordpress-2023-05-30
   title: No more Wordpress
   short: This site no longer runs on Wordpress, this is how and why I did it.
@@ -86,9 +87,9 @@
     - WordPress
 - id: posts/art/mousemouse-3.2-textured
   content:
-      markupType: markdown
-      location: local
-      data: post/art/mousemouse-3.2-textured.md
+    markupType: markdown
+    location: local
+    data: post/art/mousemouse-3.2-textured.md
   author:
     name: Mar (@strawmelonjuice)
     thumbnail: >-
@@ -102,13 +103,25 @@
     published: 1689715712
     altered: 1690758605
   category: My art
-  tags: [art, tumblr, mouse, mousemouse, mousemaus, Clip Studio Paint, OCs, OC, OCid:MM, paper textured]
+  tags:
+    [
+      art,
+      tumblr,
+      mouse,
+      mousemouse,
+      mousemaus,
+      Clip Studio Paint,
+      OCs,
+      OC,
+      OCid:MM,
+      paper textured,
+    ]
 
 - id: posts/art/mousemouse-3.2
   content:
-      markupType: markdown
-      location: local
-      data: post/art/mousemouse-3.2.md
+    markupType: markdown
+    location: local
+    data: post/art/mousemouse-3.2.md
   author:
     name: Mar (@strawmelonjuice)
     thumbnail: >-
@@ -122,7 +135,18 @@
     published: 1688332202
     altered: 1690758605
   category: My art
-  tags: [art, tumblr, mouse, mousemouse, mousemaus, Clip Studio Paint, OCs, OC, OCid:MM]
+  tags:
+    [
+      art,
+      tumblr,
+      mouse,
+      mousemouse,
+      mousemaus,
+      Clip Studio Paint,
+      OCs,
+      OC,
+      OCid:MM,
+    ]
 - id: sitelist
   title: Sitelist
   short: Based on seeing the internet freedom and safety going downhill I decided to start a list of sites and my classification  of them. If you want to edit this list, send a PR on GitHub or email me.
@@ -143,8 +167,8 @@
 
 - id: posts/art/brain-lost-misunderstanding
   mode: default
-  title: 'A misunderstanding'
-  short: 'Just trying things out lol'
+  title: "A misunderstanding"
+  short: "Just trying things out lol"
   author:
     name: Mar (@strawmelonjuice)
     thumbnail: >-
@@ -153,21 +177,32 @@
   thumbnail: /assets/img/media/art/a-misunderstanding.png
   title-display: true
   content:
-      markupType: markdown
-      location: inline
-      data: |
-        - More brainfarts that I turned to art: <code class="taggo">brainfart as art</code>
+    markupType: markdown
+    location: inline
+    data: |
+      - More brainfarts that I turned to art: <code class="taggo">brainfart as art</code>
 
-        <div style="height: 300px"><hl-img preview="https://64.media.tumblr.com/c8d4a3e20145e846bf96bc5ca16da14e/bc5fb4c5e676e41b-93/s1280x1920/ead37ff27590d344cf2a48dc1dd812468256e43e.pnj" alt="MouseMouse!" highlight="/assets/img/media/art/a-misunderstanding.png" href="https://www.tumblr.com/strawmelonjuice/722847916036931584/a-misunderstanding?source=share"></hl-img></div>
+      <div style="height: 300px"><hl-img preview="https://64.media.tumblr.com/c8d4a3e20145e846bf96bc5ca16da14e/bc5fb4c5e676e41b-93/s1280x1920/ead37ff27590d344cf2a48dc1dd812468256e43e.pnj" alt="MouseMouse!" highlight="/assets/img/media/art/a-misunderstanding.png" href="https://www.tumblr.com/strawmelonjuice/722847916036931584/a-misunderstanding?source=share"></hl-img></div>
 
-        A misunderstanding! Will the bunny-thing eat the mole-thing? I think they'll become friends.
+      A misunderstanding! Will the bunny-thing eat the mole-thing? I think they'll become friends.
 
-        <span class="notion">This art is mine, you may not download and use this without [asking me](mailto:mar@strawmelonjuice.com) and getting my permission!</span>
+      <span class="notion">This art is mine, you may not download and use this without [asking me](mailto:mar@strawmelonjuice.com) and getting my permission!</span>
   dates:
     published: 1689354605
     altered: 1690984579
   category: My art
-  tags: [art, animals, emoji, drawing, Clip Studio Paint, OC, trying things out, paper textured, brainfart as art]
+  tags:
+    [
+      art,
+      animals,
+      emoji,
+      drawing,
+      Clip Studio Paint,
+      OC,
+      trying things out,
+      paper textured,
+      brainfart as art,
+    ]
 - id: links
   title: My important links
   short: Mar's links
@@ -185,3 +220,14 @@
     published: 1683723800
     altered: 1683723800
   tags: [linktree, social media, links]
+- id: "404"
+  title: Page not found!
+  short: Could not find that page.
+  type: page
+  content:
+    markupType: markdown
+    location: inline
+    data: |
+      # Page not found!
+
+      Could not find that page! Wanna go back [home](/)?
