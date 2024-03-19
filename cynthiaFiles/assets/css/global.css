@@ -17,7 +17,25 @@
     font-family: 'Ubuntu Mono';
     src: url(/assets/fonts/Ubuntu_Mono/UbuntuMono-Regular.ttf) format('truetype');
 }
+@font-face {
+    font-family: "Josefin Sans";
+    src: url(/assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
 
+@font-face {
+    font-family: "Fira Sans";
+    src: url(/assets/fonts/Fira_Sans/FiraSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Gantari";
+    src: url(/assets/fonts/Gantari/Gantari-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Syne";
+    src: url(/assets/fonts/Syne/Syne-VariableFont_wght.ttf);
+}
 
 :root {
     --filter-contrast-backgroundcolor: #a29191;
@@ -141,6 +159,7 @@ imgmote {
     margin-bottom: 20px;
     border-radius: 15px;
     padding: 5px;
+    font-size: 120%;
 }
 
 .notion:hover:after {
@@ -188,7 +207,7 @@ blockquote.notion {
 (max-width: 800px) {
     .openbtn {
         display: block !important;
-        font-size: 20px;
+        font-size: 200%;
         cursor: pointer;
         padding: 10px 14px;
         border: none;
@@ -301,4 +320,7 @@ div.sociallinks-icons img {
 div.sociallinks-icons img:hover {
     width: 35px;
     height: 35px;
+}
+#filtertoggle {
+    font-size: 110%;
 }

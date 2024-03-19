@@ -19,7 +19,7 @@ served = 10
 
 # Generator rules set how Cynthia generates web pages.
 [generator]
-site-baseurl = ""
+site-baseurl = "strawmelonjuice.com"
 og-site-name = "strawmelonjuice dot com"
 [generator.meta]
 

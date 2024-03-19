@@ -73,7 +73,8 @@ body.light-theme {
         url(/assets/img/strawberrycorners.png) right -106px top -83px no-repeat,
         url(/assets/img/strawberrycorners.png) left -106px bottom -83px no-repeat,
         url(/assets/img/strawberrycorners.png) right -106px bottom -83px no-repeat,
-        linear-gradient(#C8ECB5, #eedeab80);
+        /* linear-gradient(#C8ECB5, #eedeab80); */
+        #C8ECB5;
     --value-slot-3: brightness(0) saturate(100%);
     /*  */
     background-image: url('/assets/img/bgraster.png');
@@ -155,7 +156,8 @@ body.dark-theme {
         url(/assets/img/strawberrycorners-moons.png) right -106px top -83px no-repeat,
         url(/assets/img/strawberrycorners-moons.png) left -106px bottom -83px no-repeat,
         url(/assets/img/strawberrycorners-moons.png) right -106px bottom -83px no-repeat,
-        linear-gradient(#13354480, #3B1344);
+        /* linear-gradient(#13354480, #3B1344); */
+        #3B1344;
     --value-slot-03: brightness(0) saturate(100%)invert(100%) sepia(7%) saturate(248%) hue-rotate(335deg) brightness(117%) contrast(90%);
     /*  */
     background-image: url('/assets/img/bgraster_dark.png');
@@ -167,6 +169,7 @@ body.dark-theme {
 }
 
 main.content {
+    border-radius: 14px;
     background: var(--value-slot-02);
 
 }
@@ -225,7 +228,7 @@ body {
 .bottombar a:not(.accesstoggle, .icon) {
     display: block;
     float: right;
-    font-size: 25px;
+    font-size: 250%;
     height: 40px;
     padding: 14px 16px;
     text-align: center;
@@ -250,7 +253,7 @@ imgmote {
     background-color: var(--color-slot-5);
     border-radius: 20%;
     font-family: 'Noto Color Emoji', sans-serif;
-    font-size: 20px;
+    font-size: 125%;
     height: 23px;
     padding: 1px;
     margin: .9px;
@@ -268,14 +271,14 @@ imgmote {
     color: var(--color-slot-9);
     text-align: center;
     /* line-height: 80px; */
-    font-size: 20px;
+    font-size: 200%;
 }
 
 .pageinfo-shortversion {
     font-style: italic;
     color: var(--color-slot-9);
     text-align: center;
-    font-size: 15px;
+    font-size: 150%;
 }
 
 .pageinfosidebar {
@@ -317,7 +320,7 @@ blockquote {
 
 body {
     background-color: var(--color-slot-14);
-    font-size: 14px;
+    font-size: 140%;
     margin: 0;
     overflow: hidden;
     padding: 15px;
@@ -392,7 +395,7 @@ div.derivi-twivi {
     margin-right: 0px;
     margin-bottom: 14px;
     overflow: hidden;
-    transition: ease all 20s;
+    /* transition: ease all 20s; */
     display: block;
 }
 
@@ -461,25 +464,25 @@ form.big-ephew-form {
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 250%;
     font-weight: 300;
     margin: 0 auto 25px;
 }
 
 h2 {
-    font-size: 21px;
+    font-size: 210%;
     font-weight: 275;
     margin: 0 auto 21px;
 }
 
 h3 {
-    font-size: 19px;
+    font-size: 190%;
     font-weight: 400;
     margin: 0 auto 19px;
 }
 
 h4 {
-    font-size: 15px;
+    font-size: 150%;
     font-weight: 400;
     margin: 0 auto 15px;
 }
@@ -523,7 +526,7 @@ ul.timeline {
     .bottombar a.icon {
         display: block;
         float: left;
-        font-size: 17px;
+        font-size: 90%; /* id: 29018 */;
         padding: 14px 16px;
         text-align: center;
         text-decoration: none
@@ -559,7 +562,7 @@ ul.timeline {
 
     .sidebar .closebtn {
         display: inline;
-        font-size: 36px;
+        font-size: 360%;
         margin-left: 50px;
         position: absolute;
         right: 25px;
@@ -568,7 +571,7 @@ ul.timeline {
 
     .sidebar a {
         display: block;
-        font-size: 25px;
+        font-size: 250%;
         padding: 8px 8px 8px 32px;
         text-decoration: none;
         transition: .3s
@@ -610,7 +613,7 @@ ul.timeline {
     border-radius: 0 0 15px 0;
     display: block;
     float: left;
-    font-size: 17px;
+    font-size: 90%; /* id: 29018 */;
     padding: 3px;
     text-align: center;
     text-decoration: none
@@ -619,7 +622,7 @@ ul.timeline {
 .bottombar a:not(.accesstoggle, .icon) {
     display: block;
     float: right;
-    font-size: 17px;
+    font-size: 90%; /* id: 29018 */;
     padding: 14px 16px;
     text-align: center;
     text-decoration: none
@@ -634,7 +637,7 @@ button {
     border: currentColor 5px groove;
     border-radius: 10px 10px 10px 10px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 105%;
     line-height: 22px;
     line-break: strict;
     height: 35px;
@@ -647,7 +650,7 @@ button {
 
 
 .link {
-    font-size: 15px;
+    font-size: 150%;
     margin-bottom: 0;
     text-align: center
 }
@@ -660,7 +663,7 @@ button {
 }
 
 .login-input {
-    font-size: 15px;
+    font-size: 150%;
     height: 25px;
     margin-bottom: 25px;
     padding: 10px;
@@ -705,15 +708,15 @@ button {
     opacity: 0;
     position: relative;
     top: -62px;
-    width: 100%
+    width: 100%;
 }
 
 .media-upload-title {
     border-bottom: 1px solid var(--color-slot-8);
-    font-size: 15px;
+    font-size: 150%;
     height: 50px;
     text-align: center;
-    width: 100%
+    width: 100%;
 }
 
 .postview:not(.postview-article) {
@@ -780,25 +783,25 @@ form.big-ephew-form {
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 250%;
     font-weight: 300;
     margin: 0 auto 25px;
 }
 
 h2 {
-    font-size: 21px;
+    font-size: 210%;
     font-weight: 275;
     margin: 0 auto 21px;
 }
 
 h3 {
-    font-size: 19px;
+    font-size: 190%;
     font-weight: 400;
     margin: 0 auto 19px;
 }
 
 h4 {
-    font-size: 15px;
+    font-size: 150%;
     font-weight: 400;
     margin: 0 auto 15px;
 }
@@ -841,7 +844,7 @@ ul.timeline {
     .bottombar a.icon {
         display: block;
         float: left;
-        font-size: 17px;
+        font-size: 90%; /* id: 29018 */;
         padding: 14px 16px;
         text-align: center;
         text-decoration: none
@@ -869,7 +872,7 @@ ul.timeline {
 
     .sidebar .closebtn {
         display: inline;
-        font-size: 36px;
+        font-size: 360%;
         margin-left: 50px;
         position: absolute;
         right: 25px;
@@ -878,7 +881,7 @@ ul.timeline {
 
     .sidebar a {
         display: block;
-        font-size: 25px;
+        font-size: 250%;
         padding: 8px 8px 8px 32px;
         text-decoration: none;
         transition: .3s
@@ -902,7 +905,7 @@ ul.timeline {
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 90%; /* id: 29018 */;
     }
 
     .sidebar {
@@ -920,7 +923,7 @@ ul.timeline {
     .sidebar a {
         padding: 8px 8px 8px 32px;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 250%;
         display: block;
         transition: 0.3s;
     }
@@ -929,7 +932,7 @@ ul.timeline {
         position: absolute;
         top: 0;
         right: 25px;
-        font-size: 36px;
+        font-size: 360%;
         margin-left: 50px;
         display: inline;
     }
@@ -1104,15 +1107,6 @@ div.bottombar {
     background-image: linear-gradient(to right, var(--color-slot-33), var(--color-slot-45))
 }
 
-/* main.content {
-    background:
-            url(/assets/img/strawberrycorners.png) left -106px top -83px no-repeat,
-            url(/assets/img/strawberrycorners.png) right -106px top -83px no-repeat,
-            url(/assets/img/strawberrycorners.png) left -106px bottom -83px no-repeat,
-            url(/assets/img/strawberrycorners.png) right -106px bottom -83px no-repeat,
-            linear-gradient(#C8ECB5, #eedeab80);
-} */
-
 div.link-embed {
     background-color: var(--color-slot-62)
 }
@@ -1132,4 +1126,7 @@ h1 {
 
 h1.login-title {
     color: var(--color-slot-41)
+}
+body>* {
+    font-size: 110%;
 }

@@ -121,7 +121,7 @@ main.content {
 .bottombar a:not(.accesstoggle, .icon) {
     display: block;
     float: right;
-    font-size: 25px;
+    font-size: 250%;
     height: 40px;
     padding: 14px 16px;
     text-align: center;
@@ -144,7 +144,7 @@ main.content {
     background-color: #54c054;
     border-radius: 20%;
     font-family: 'Noto Color Emoji', sans-serif;
-    font-size: 20px;
+    font-size: 125%;
     height: 23px;
     padding: 1px;
     margin: .9px;
@@ -152,11 +152,22 @@ main.content {
     display: inline-block;
 }
 
-
-@import "/es/gfonts/https://fonts.googleapis.com/css2?family=Ubuntu&display=swap";
-
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Josefin Sans", "Fira Sans", "Ubuntu";
+}
+
+body>* {
+    font-size: 110%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.special {
+    font-family: "Gantari", "Syne";
 }
 
 .openbtn {
@@ -169,14 +180,14 @@ body {
     color: var(--color-slot-07);
     text-align: center;
     /* line-height: 80px; */
-    font-size: 20px;
+    font-size: 200%;
 }
 
 .pageinfo-shortversion {
     font-style: italic;
     color: var(--color-slot-04);
     text-align: center;
-    font-size: 15px;
+    font-size: 150%;
 }
 
 .pageinfosidebar {
@@ -225,8 +236,7 @@ blockquote {
 body {
     background-color: var(--color-slot-06);
     color: var(--color-slot-12);
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 14px;
+    font-size: 140%;
     margin: 0;
     overflow: hidden;
     padding: 15px;
@@ -300,19 +310,19 @@ form.big-ephew-form {
 
 
 h2 {
-    font-size: 21px;
+    font-size: 210%;
     font-weight: 275;
     margin: 0 auto 21px;
 }
 
 h3 {
-    font-size: 19px;
+    font-size: 190%;
     font-weight: 400;
     margin: 0 auto 19px;
 }
 
 h4 {
-    font-size: 15px;
+    font-size: 150%;
     font-weight: 400;
     margin: 0 auto 15px;
 }
@@ -357,7 +367,7 @@ ul.timeline {
     .bottombar a.icon {
         display: block;
         float: left;
-        font-size: 17px;
+        font-size: 90%; /* id: 29018 */;
         padding: 14px 16px;
         text-align: center;
         text-decoration: none
@@ -389,7 +399,7 @@ ul.timeline {
 
     .sidebar .closebtn {
         display: inline;
-        font-size: 36px;
+        font-size: 360%;
         margin-left: 50px;
         position: absolute;
         right: 25px;
@@ -398,7 +408,7 @@ ul.timeline {
 
     .sidebar a {
         display: block;
-        font-size: 25px;
+        font-size: 250%;
         padding: 8px 8px 8px 32px;
         text-decoration: none;
         transition: .3s
@@ -443,7 +453,7 @@ ul.timeline {
     border-radius: 0 0 15px 0;
     display: block;
     float: left;
-    font-size: 17px;
+    font-size: 90%; /* id: 29018 */;
     padding: 3px;
     text-align: center;
     text-decoration: none
@@ -452,7 +462,7 @@ ul.timeline {
 .bottombar a:not(.accesstoggle, .icon) {
     display: block;
     float: right;
-    font-size: 17px;
+    font-size: 90%; /* id: 29018 */;
     padding: 14px 16px;
     text-align: center;
     text-decoration: none
@@ -467,26 +477,26 @@ ul.timeline {
     border: 0;
     border-radius: 20px 20px 5px 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 160%;
     height: 50px;
     margin: 10px;
     outline: 0;
     padding: 17px;
     text-align: center;
-    width: 90%
+    width: 90%;
 }
 
 .small-button {
     border: 0;
     border-radius: 5px 5px 20px 20px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 160%;
     height: 35px;
     margin: 10px;
     outline: 0;
     padding: 17px;
     text-align: center;
-    width: 60%
+    width: 60%;
 }
 
 .ephew-form {
@@ -506,7 +516,7 @@ ul.timeline {
     outline: 0;
     padding: 17px;
     text-align: center;
-    width: 80%
+    width: 80%;
 }
 
 .ephew-textinputtablebox {
@@ -522,7 +532,7 @@ ul.timeline {
 }
 
 .link {
-    font-size: 15px;
+    font-size: 150%;
     margin-bottom: 0;
     text-align: center
 }
@@ -535,7 +545,7 @@ ul.timeline {
 }
 
 .login-input {
-    font-size: 15px;
+    font-size: 150%;
     height: 25px;
     margin-bottom: 25px;
     padding: 10px;
@@ -573,25 +583,25 @@ div.timeline {
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 250%;
     font-weight: 300;
     margin: 0 auto 25px;
 }
 
 h2 {
-    font-size: 21px;
+    font-size: 210%;
     font-weight: 275;
     margin: 0 auto 21px;
 }
 
 h3 {
-    font-size: 19px;
+    font-size: 190%;
     font-weight: 400;
     margin: 0 auto 19px;
 }
 
 h4 {
-    font-size: 15px;
+    font-size: 150%;
     font-weight: 400;
     margin: 0 auto 15px;
 }
@@ -634,7 +644,7 @@ ul.timeline {
     .bottombar a.icon {
         display: block;
         float: left;
-        font-size: 17px;
+        font-size: 90%; /* id: 29018 */;
         padding: 14px 16px;
         text-align: center;
         text-decoration: none
@@ -662,7 +672,7 @@ ul.timeline {
 
     .sidebar .closebtn {
         display: inline;
-        font-size: 36px;
+        font-size: 360%;
         margin-left: 50px;
         position: absolute;
         right: 25px;
@@ -671,7 +681,7 @@ ul.timeline {
 
     .sidebar a {
         display: block;
-        font-size: 25px;
+        font-size: 250%;
         padding: 8px 8px 8px 32px;
         text-decoration: none;
         transition: .3s
@@ -695,7 +705,7 @@ ul.timeline {
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 90%; /* id: 29018 */;
     }
 
     .sidebar {
@@ -713,7 +723,7 @@ ul.timeline {
     .sidebar a {
         padding: 8px 8px 8px 32px;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 250%;
         display: block;
         transition: 0.3s;
     }
@@ -722,7 +732,7 @@ ul.timeline {
         position: absolute;
         top: 0;
         right: 25px;
-        font-size: 36px;
+        font-size: 360%;
         margin-left: 50px;
         display: inline;
     }

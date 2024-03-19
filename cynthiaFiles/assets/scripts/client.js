@@ -7,7 +7,7 @@ This script is embedded into any page Cynthia serves, always just before the clo
 setInterval(() => {
 	const elements = document.getElementsByClassName("unparsedtimestamp");
 	for (let i = elements.length - 1; i >= 0; i--) {
-		let timestamp = parseInt(elements[i].textContent);
+		const timestamp = Number.parseInt(elements[i].textContent);
 		console.log("Parsing timestamp.");
 		const jstimestamp = timestamp * 1000;
 		const dateObject = new Date(jstimestamp);
@@ -28,19 +28,19 @@ function mobileorientation() {
 		return 0;
 	}
 	console.error(
-		"Could not determine 'mobilescreen()' from css value '" + csssays + "'.",
+		`Could not determine 'mobilescreen()' from css value '${csssays}'.`,
 	);
 }
 
 if (document.getElementById("cynthiapageinfoshowdummyelem") != null) {
 	let post_tags_htm = "";
-	pagemetainfo.tags.forEach((tag) => {
+	for (tag of pagemetainfo.tags) {
 		if (tag !== pagemetainfo.tags[0]) {
-			post_tags_htm = post_tags_htm + `, <code class="post_tag">${tag}</code>`;
+			post_tags_htm = `${post_tags_htm}, <code class="post_tag">${tag}</code>`;
 		} else {
-			post_tags_htm = post_tags_htm + `<code class="post_tag">${tag}</code>`;
+			post_tags_htm = `${post_tags_htm}<code class="post_tag">${tag}</code>`;
 		}
-	});
+	};
 	post_html = document.querySelector("main");
 	post_html.innerHTML = `${post_html.innerHTML}
 	<hr>
@@ -75,7 +75,7 @@ if (document.getElementById("cynthiapageinfoshowdummyelem") != null) {
 	let dates = "";
 	if (typeof pagemetainfo.dates !== "undefined") {
 		if (
-			typeof pagemetainfo.dates.altered == "undefined" ||
+			typeof pagemetainfo.dates.altered === "undefined" ||
 			pagemetainfo.dates.altered == null ||
 			pagemetainfo.dates.published === pagemetainfo.dates.altered
 		) {
@@ -94,7 +94,7 @@ if (document.getElementById("cynthiapageinfoshowdummyelem") != null) {
 		}
 	}
 	pageinfosidebarelem.innerHTML = `
-    <span class="not-on-mobile" style="position:absolute;right:0;top:0;font-size: 3em; cursor: pointer; ">&#8665;</span>
+    <span class="not-on-mobile" style="position:absolute;right:0;top:0;font-size: 3em; cursor: pointer; " onclick="pageinfosidebar_rollup()">&#8665;</span>
     <p class="pageinfo-title">${pagemetainfo.title}</p>
     <ul>
       <li>Author: ${authorthumbnail} ${pagemetainfo.author.name}</li>
@@ -461,42 +461,32 @@ if (badges !== null) {
 }
 
 console.log(`View mode of this page is: "${pagemetainfo.mode}"`);
-switch (pagemetainfo.mode) {
-	case "blog":
-		window.ScaleFontsTo = 4;
-		break;
-	case "project":
-		window.ScaleFontsTo = 4;
-		break;
-	default:
-		window.ScaleFontsTo = 5;
-		break;
-}
+
+window.ScaleFontsTo = 7;
 
 document.body.setScaledFont = function (f) {
+	let o = 100;
+	const ow = this.offsetWidth;
 	switch (true) {
 		case mobileorientation():
-			var s = this.offsetWidth,
-				fs = s * (f / 60);
+			o = ow * (f / 60);
 			console.log("Scaling in mobile mode.");
 			break;
 		case this.offsetWidth < 1200:
-			var s = this.offsetWidth,
-				fs = s * (f / 90);
+			o = ow * (f / 90);
+				
 			console.log(`Scaling in tablet mode. Width: ${this.offsetWidth}`);
 			break;
 		case this.offsetWidth <= 1600:
-			var s = this.offsetWidth,
-				fs = s * (f / 100);
+			o = ow * (f / 100);
 			console.log(`Scaling in laptop mode. Width: ${this.offsetWidth}`);
 			break;
 		case this.offsetWidth > 1600:
-			var s = this.offsetWidth,
-				fs = s * (f / 150);
+			o = ow * (f / 150);
 			console.log(`Scaling in desktop mode. Width: ${this.offsetWidth}`);
 			break;
 	}
-	this.style.fontSize = `${fs}%`;
+	this.style.fontSize = `${o}%`;
 	return this;
 };
 
@@ -504,4 +494,13 @@ window.onresize = () => {
 	document.body.setScaledFont(window.ScaleFontsTo);
 };
 document.body.setScaledFont(window.ScaleFontsTo);
+setInterval(() => {
+	for (a of document.querySelectorAll("img.imgmote")) {
+		a.style.height = "1em";
+		a.style.width = "1em";
+		a.style.maxHeight = "";
+		a.style.maxWidth = "";
+		a.style.fontSize = "100%";
+	}
+});
 // }

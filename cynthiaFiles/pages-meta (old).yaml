@@ -11,7 +11,7 @@
   dates:
     published: 1699301308
     altered: 1699301308
-  tags: 'Logger-Diary.Online, Logger-Diary, updates, Logger-Diary updates, Logger-Diary.online updates'
+  tags: [Logger-Diary.Online, Logger-Diary, updates, Logger-Diary updates, Logger-Diary.online updates]
 - id: posts/LDo/updates-summary-august23
   title: "Logger-Diary Online: Update summary for summer '23!"
   short: Loads of updates coming to Logger-Diary.Online users in the past two months, most of them small enough to go unnoticed. However, I’ll make a small and comprehensible list so they won’t actually go unnoticed!
@@ -23,7 +23,7 @@
   dates:
     published: 1692014952
     altered: 1692014952
-  tags: 'Logger-Diary.Online, Logger-Diary, updates, Logger-Diary updates, Logger-Diary.online updates'
+  tags: [Logger-Diary.Online, Logger-Diary, updates, Logger-Diary updates, Logger-Diary.online updates]
 - id: posts/art/doh-noot_smile
   title: 'Doh-Noot - #1: Smiling'
   short: 'Just don''t let Doh-Noot walk into the donut shop, okay?'
@@ -34,7 +34,7 @@
     published: 1689726261
     altered: 1690758605
   category: My art
-  tags: 'art, donut, emoji, drawing, Clip Studio Paint, OCs, OC, OCid:DN'
+  tags: [art, donut, emoji, drawing, Clip Studio Paint, OCs, OC, OCid:DN]
 - id: posts/LDo/230704
   title: Logger-Diary Online is coming back to Mar's home domain.
   short: Logger-Diary Online is coming back to `logger-diary.strawmelonjuice.com` for financial reasons.
@@ -46,7 +46,7 @@
   dates:
     published: 1688485329
     altered: 1688485329
-  tags: 'Logger-Diary.Online, Logger-Diary, updates, Logger-Diary updates, Logger-Diary.online updates'
+  tags: [Logger-Diary.Online, Logger-Diary, updates, Logger-Diary updates, Logger-Diary.online updates]
 - id: posts/ads-no-more
   title: Going ad-less.
   short: First Google Adsense, now adfocus too. Going ad-less.
@@ -56,7 +56,7 @@
     published: 1687804698
     altered: 1687814181
   category: Meta
-  tags: Google Adsense, Google, critique, adfocus, adfoc.us
+  tags: [Google Adsense, Google, critique, adfocus, adfoc.us]
 - id: posts/art/bb_hi
   title: "Bella bee: Hi!"
   short: A first try that went exceptionally well!
@@ -67,7 +67,7 @@
     published: 1687541312
     altered: 1690758605
   category: My art
-  tags: 'art, tumblr, animals, bee, Clip Studio Paint, OCs, OC, OCid:BB'
+  tags: [art, tumblr, animals, bee, Clip Studio Paint, OCs, OC, OCid:BB]
 - id: posts/LDo/230608
   title: Logger-Diary News now served on Mar's website!
   short: Logger-Diary Online News is now served from `strawmelonjuice.com`.
@@ -79,7 +79,7 @@
   dates:
     published: 1686248156
     altered: 1686248156
-  tags: 'Logger-Diary.Online, Logger-Diary, updates, Logger-Diary updates, Logger-Diary.online updates'
+  tags: [Logger-Diary.Online, Logger-Diary, updates, Logger-Diary updates, Logger-Diary.online updates]
 - id: posts/kitton
   title: Kitten!
   short: My site now has a cat following your mouse around!
@@ -95,7 +95,7 @@
   dates:
     published: 1686134666
     altered: 1686139710
-  tags: javascript, adryd, maia arson crimew, open-source, web, webdev
+  tags: [javascript, adryd, maia arson crimew, open-source, web, webdev]
 - id: posts/wordpress-2023-05-30
   title: No more Wordpress
   short: This site no longer runs on Wordpress, this is how and why I did it.
@@ -104,7 +104,7 @@
   dates:
     published: 1685451731
     altered: 1685451731
-  tags: blog, webdev, php, tech, CMS, GitHub, themes
+  tags: [blog, webdev, php, tech, CMS, GitHub, themes]
 - id: posts/LDo/moved-to-logger-diary.online
   title: "We moved to a new adress - `https://logger-diary.online`"
   short: We moved to our own adress!
@@ -116,7 +116,7 @@
   dates:
     published: 1674730800
     altered: 1674730800
-  tags: 'Logger-Diary.Online, Logger-Diary, updates, Logger-Diary updates, Logger-Diary.online updates, diary-app, domain name, moving'
+  tags: [Logger-Diary.Online, Logger-Diary, updates, Logger-Diary updates, Logger-Diary.online updates, diary-app, domain name, moving]
 - id: posts/LDo/md
   title: Markdown support!
   short: Logger-Diary Online now has markdown support!
@@ -128,7 +128,7 @@
   dates:
     published: 1674471600
     altered: 1674730800
-    tags: 'Logger-Diary.Online, Logger-Diary, updates, Logger-Diary updates, Logger-Diary.online updates, diary-app, markdown, daring fireball, updates, site, parsedown'
+    tags: [Logger-Diary.Online, Logger-Diary, updates, Logger-Diary updates, Logger-Diary.online updates, diary-app, markdown, daring fireball, updates, site, parsedown]
 - id: posts/farewell-gads
   title: Farewell Google Adsense then
   short: I dropped Google Adsense after they started acting weird. How to continue?
@@ -138,7 +138,7 @@
     published: 1661359098
     altered: 1687854166
   category: Meta
-  tags: Google Adsense, Google, critique
+  tags: [Google Adsense, Google, critique]
 - id: posts/art/af-hi
   title: "Amigo & Ferry: Hi"
   short: Two shy best friends!
@@ -149,7 +149,7 @@
     published: 1668724112
     altered: 1690758605
   category: My art
-  tags: 'art, discord, slug, cactus, friends, Clip Studio Paint, OCs, OC, OCid:AF'
+  tags: [art, discord, slug, cactus, friends, Clip Studio Paint, OCs, OC, OCid:AF]
 - id: posts/stories/leafornia-2
   title: Leafornia’s travels - chapter two
   short: Today went bad. I underestimated how hard it is for me to live here. Physically, I am weaker than my lost demon. However, I don’t know if this world didn’t mess him up mentally. I also need to take in consideration that my normal me is weak in this world, and that my powers are way too strong for this world. I may no longer use my powers if unnecessarily. Regards from earth.
@@ -159,7 +159,7 @@
   dates:
     published: 1635885176
     altered: 1635885176
-  tags: hell, devil, girl, fiction, 2021, Leafornia's travels, Story ideas
+  tags: [hell, devil, girl, fiction, 2021, Leafornia's travels, Story ideas]
 - id: posts/stories/leafornia-1
   title: Leafornia’s travels - chapter one
   short: “No, I beg you! I’ll do my best next time, I’ll make sure your fire is as hot as you want it! Please!” She sat back in her red velvet throne, looking him dead in the eye, making clear that his begging made no sense to her. “You foolish giant demon. I do not see why I should spare you, for it is only one human life, and you did not quite do as you promised last time.”, she spoke. “And no. I do not care about the temperature of my fire, it is only for decoration. I’ll just send you there because that’s what I do, no reason behind it.”
@@ -169,7 +169,7 @@
   dates:
     published: 1633519196
     altered: 1633519196
-  tags: hell, devil, girl, fiction, 2021, satans daughter, Leafornia's travels, Story ideas
+  tags: [hell, devil, girl, fiction, 2021, satans daughter, Leafornia's travels, Story ideas]
 #pages
 - id: 1
   title: About me
@@ -179,43 +179,7 @@
   dates:
     published: 1683723800
     altered: 1683723800
-  tags: autobiographical, quotes
-- id: abt-site
-  title: About this site
-  short: About this site
-  type: page
-  title-display: true
-  dates:
-    published: 1686090592
-    altered: 1688303399
-  tags: meta, credits
-- id: links
-  title: My important links
-  short: Mar's links
-  morelinks-display: false
-  type: page
-  dates:
-    published: 1683723800
-    altered: 1683723800
-  tags: linktree, social media, links
-- id: discord/docs/rules
-  title: Server rules
-  short: Rules for the 'BLUB!!' discord server.
-  modeoverride: discord
-  type: page
-  dates:
-    published: 1676247185
-    altered: 1685887840
-  tags: discord, moderator, moderation, discord server, rules
-- id: support
-  title: Support me
-  short: Like what I do? Want to support me? You'll find some links on this page!
-  modeoverride: base
-  type: page
-  dates:
-    published: 1686237433
-    altered: 1686237433
-  tags: donation, support, paypal, buymeacoffee, open-source
+  tags: [autobiographical, quotes]
 - id: projects/hl-img
   title: HL-img.js > Home
   short: Highlightable images in js.
@@ -224,51 +188,5 @@
   dates:
     published: 1689201880
     altered: 1689201880
-  tags: donation, support, paypal, buymeacoffee, open-source, javascript
+  tags: [donation, support, paypal, buymeacoffee, open-source, javascript]
   external-content-url: https://raw.githubusercontent.com/strawmelonjuice/hl-img.js/main/README.md
-- id: projects/bananen
-  title: Bananen! docs > Home
-  short: Page (and theme) under construction!
-  modeoverride: project
-  type: page
-  dates:
-    published: 1693746470
-    altered: 1693746470
-  tags: donation, support, paypal, buymeacoffee, open-source, rust, rustlang
-  external-content-url: https://raw.githubusercontent.com/strawmelonjuice/bananen/main/docs/index.md
-- id: projects/bananen/changelog
-  title: Bananen! docs > Self-generated changelog
-  short: Auto-generated by Bananen.
-  modeoverride: project
-  type: page
-  custom-back-url: /p/projects/bananen
-  custom-back-link: "Back to bananen"
-  dates:
-    published: 1693746470
-    altered: 1693746470
-  tags: example, open-source, rust, rustlang, markdown
-  external-content-url: https://raw.githubusercontent.com/strawmelonjuice/bananen/main/CHANGELOG.MD
-- id: projects/bananen/get
-  title: Bananen! docs > Get Bananen!
-  short: Get Bananen!
-  modeoverride: project
-  type: page
-  custom-back-url: /p/projects/bananen
-  custom-back-link: "Back to bananen"
-  dates:
-    published: 1693746470
-    altered: 1693746470
-  tags: download, support, paypal, buymeacoffee, open-source, rust, rustlang, cli
-  external-content-url: https://raw.githubusercontent.com/strawmelonjuice/bananen/main/docs/get.md
-- id: projects/bananen/docs
-  title: Bananen! docs > Getting started
-  short: How to use Bananen?
-  modeoverride: project
-  type: page
-  custom-back-url: /p/projects/bananen
-  custom-back-link: "Back to bananen"
-  dates:
-    published: 1693746470
-    altered: 1693746470
-  tags: development, support, paypal, buymeacoffee, open-source, rust, rustlang, cli
-  external-content-url: https://raw.githubusercontent.com/strawmelonjuice/bananen/main/docs/how-to.md
