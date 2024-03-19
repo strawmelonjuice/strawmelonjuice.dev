@@ -87,10 +87,10 @@ a:not(:hover):not(.menulink) {
     background-color: #05bddd;
     border-radius: 20%;
     font-family: 'Noto Color Emoji', sans-serif;
-    font-size: 125%;
-    height: 25px;
+    font-size: 1.2em;
+    height: 1.2em;
+    width: 1.2em;
     margin: .9px;
-    width: 25px
 }
 
 

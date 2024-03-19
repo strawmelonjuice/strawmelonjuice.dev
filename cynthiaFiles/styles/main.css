@@ -253,11 +253,11 @@ imgmote {
     background-color: var(--color-slot-5);
     border-radius: 20%;
     font-family: 'Noto Color Emoji', sans-serif;
-    font-size: 125%;
-    height: 23px;
+    font-size: 1.2em;
+    height: 1.2em;
+    width: 1.2em;
     padding: 1px;
     margin: .9px;
-    width: 23px;
     display: inline-block;
 }
 
