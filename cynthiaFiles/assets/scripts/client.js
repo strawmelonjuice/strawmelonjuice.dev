@@ -4,9 +4,8 @@ Cynthia Client-side script.
 This script is embedded into any page Cynthia serves, always just before the closing </html>.
 */
 
-
 setInterval(() => {
-	const elements = document.getElementsByClassName('unparsedtimestamp');
+	const elements = document.getElementsByClassName("unparsedtimestamp");
 	for (let i = elements.length - 1; i >= 0; i--) {
 		let timestamp = parseInt(elements[i].textContent);
 		console.log("Parsing timestamp.");
@@ -14,15 +13,14 @@ setInterval(() => {
 		const dateObject = new Date(jstimestamp);
 		const data = dateObject.toLocaleString();
 		elements[i].textContent = data.substring(0, data.length - 3);
-		elements[i].classList.remove('unparsedtimestamp');
+		elements[i].classList.remove("unparsedtimestamp");
 	}
 }, 100);
 
-
 function mobileorientation() {
 	const csssays = getComputedStyle(document.body).getPropertyValue(
-		"--screen-type-orientation"
-		);
+		"--screen-type-orientation",
+	);
 	if (csssays === "mobile") {
 		return 1;
 	}
@@ -30,60 +28,69 @@ function mobileorientation() {
 		return 0;
 	}
 	console.error(
-		"Could not determine 'mobilescreen()' from css value '" + csssays + "'."
-		);
+		"Could not determine 'mobilescreen()' from css value '" + csssays + "'.",
+	);
 }
 
 if (document.getElementById("cynthiapageinfoshowdummyelem") != null) {
 	let post_tags_htm = "";
 	pagemetainfo.tags.forEach((tag) => {
 		if (tag !== pagemetainfo.tags[0]) {
-			post_tags_htm = post_tags_htm + `, <code class="post_tag">${tag}</code>`
+			post_tags_htm = post_tags_htm + `, <code class="post_tag">${tag}</code>`;
 		} else {
-			post_tags_htm = post_tags_htm + `<code class="post_tag">${tag}</code>`
+			post_tags_htm = post_tags_htm + `<code class="post_tag">${tag}</code>`;
 		}
 	});
 	post_html = document.querySelector("main");
-	post_html.innerHTML =
-	`${post_html.innerHTML}
+	post_html.innerHTML = `${post_html.innerHTML}
 	<hr>
 	<div id="taglist">
 	<h4>Tags</h4>
 	${post_tags_htm}
 	</div>
-	`
+	`;
 	post_tags = document.getElementsByClassName("post_tag");
 	for (let i = post_tags.length - 1; i >= 0; i--) {
 		const newpost_tag = document.createElement("a");
 		newpost_tag.href = `/t/${post_tags.item(i).innerText}`;
-		newpost_tag.innerHTML = `<code class='post_tag'>${post_tags.item(i).innerText}</code>`;
+		newpost_tag.innerHTML = `<code class='post_tag'>${
+			post_tags.item(i).innerText
+		}</code>`;
 		post_tags.item(i).parentNode.replaceChild(newpost_tag, post_tags.item(i));
 	}
 
 	let pageinfosidebarelem = document.getElementById(
-		"cynthiapageinfoshowdummyelem"
-		);
+		"cynthiapageinfoshowdummyelem",
+	);
 	pageinfosidebarelem.setAttribute(
 		"style",
-		"opacity: 0.3; transition: all 2s ease-out 0s;"
-		);
+		"opacity: 0.3; transition: all 2s ease-out 0s;",
+	);
 	pageinfosidebarelem.id = "pageinfosidebar";
 	pageinfosidebarelem = document.getElementById("pageinfosidebar");
 	let authorthumbnail = "";
-	if (
-		typeof pagemetainfo.author.thumbnail !== "undefined"
-		) {
+	if (typeof pagemetainfo.author.thumbnail !== "undefined") {
 		authorthumbnail = `<img alt="Author thumbnail" style="width: 2.5em" src="${pagemetainfo.author.thumbnail}">`;
 	}
 	let dates = "";
 	if (typeof pagemetainfo.dates !== "undefined") {
-		if (typeof pagemetainfo.dates.altered == "undefined" || pagemetainfo.dates.altered == null || pagemetainfo.dates.published === pagemetainfo.dates.altered) {
-			dates = `<li>Posted: <span class="preparsedtimestamp">${(new Date((pagemetainfo.dates.published) * 1000).toLocaleString())}</span></li>`
+		if (
+			typeof pagemetainfo.dates.altered == "undefined" ||
+			pagemetainfo.dates.altered == null ||
+			pagemetainfo.dates.published === pagemetainfo.dates.altered
+		) {
+			dates = `<li>Posted: <span class="preparsedtimestamp">${new Date(
+				pagemetainfo.dates.published * 1000,
+			).toLocaleString()}</span></li>`;
 		} else {
 			dates = `
-    <li>Posted: <span class="preparsedtimestamp">${(new Date((pagemetainfo.dates.published) * 1000).toLocaleString())}</span></li>
-    <li>Edited: <span class="preparsedtimestamp">${(new Date((pagemetainfo.dates.altered) * 1000).toLocaleString())}</span></li>
-    `
+    <li>Posted: <span class="preparsedtimestamp">${new Date(
+			pagemetainfo.dates.published * 1000,
+		).toLocaleString()}</span></li>
+    <li>Edited: <span class="preparsedtimestamp">${new Date(
+			pagemetainfo.dates.altered * 1000,
+		).toLocaleString()}</span></li>
+    `;
 		}
 	}
 	pageinfosidebarelem.innerHTML = `
@@ -104,10 +111,10 @@ if (document.getElementById("cynthiapageinfoshowdummyelem") != null) {
 		document.getElementById("pageinfosidebartoggle").style.width = "initial";
 		setTimeout(() => {
 			document.getElementById("pageinfosidebartoggle").style.width = "40";
-			}, 1700);
+		}, 1700);
 		setTimeout(() => {
 			document.getElementById("pageinfosidebartoggle").style.padding = "8px";
-			}, 1800);
+		}, 1800);
 	}
 
 	function pageinfosidebar_rollout() {
@@ -127,16 +134,16 @@ if (document.getElementById("cynthiapageinfoshowdummyelem") != null) {
 	if (mobileorientation() || window.innerHeight < 350) {
 		setTimeout(() => {
 			pageinfosidebar_rollup();
-			}, 6000);
+		}, 6000);
 		document.getElementById("pageinfosidebar").style.opacity = "100%";
 	} else {
 		document.getElementById("pageinfosidebar").style.opacity = "30%";
 		document
-            .getElementById("pageinfosidebar")
-            .setAttribute("onmouseover", "this.style.opacity = '100%'");
+			.getElementById("pageinfosidebar")
+			.setAttribute("onmouseover", "this.style.opacity = '100%'");
 		document
-            .getElementById("pageinfosidebar")
-            .setAttribute("onmouseout", "this.style.opacity = '30%'");
+			.getElementById("pageinfosidebar")
+			.setAttribute("onmouseout", "this.style.opacity = '30%'");
 	}
 }
 /*=====================================================================================================================================
@@ -153,30 +160,6 @@ Start of own customisations
 
 =====================================================================================================================================*/
 // function activate () {
-
-let hlimg_options;
-
-console.log(`View mode of this page is: "${pagemetainfo.mode}"`);
-switch (pagemetainfo.mode) {
-	case "blog":
-		hlimg_options = {
-			styling_imageshow_zIndex: 900,
-			styling_hlimg_maxwidth: "70%",
-		};
-		break;
-	case "project":
-		hlimg_options = {
-			styling_imageshow_zIndex: 900,
-			styling_hlimg_maxwidth: "70%",
-		};
-		break;
-	default:
-		hlimg_options = {
-			styling_imageshow_zIndex: 900,
-			styling_hlimg_maxwidth: "70%",
-		};
-		break;
-}
 
 function parseBool(bool) {
 	if (bool === "true" || bool === "1" || bool === true) return true;
@@ -231,7 +214,9 @@ function colorSchemeOverride(to = 1 | 2 | 0) {
 	UpdateColorSchemeToggle();
 }
 if (localStorage.getItem("ForceColorScheme") !== null) {
-	colorSchemeOverride(parseInt(localStorage.getItem("ForceColorScheme")));
+	colorSchemeOverride(
+		Number.parseInt(localStorage.getItem("ForceColorScheme")),
+	);
 }
 function UpdateColorSchemeToggle() {
 	if (document.body.classList.contains("colorSchemeOverridden")) {
@@ -474,4 +459,49 @@ if (badges !== null) {
 		}
 	};
 }
+
+console.log(`View mode of this page is: "${pagemetainfo.mode}"`);
+switch (pagemetainfo.mode) {
+	case "blog":
+		window.ScaleFontsTo = 4;
+		break;
+	case "project":
+		window.ScaleFontsTo = 4;
+		break;
+	default:
+		window.ScaleFontsTo = 5;
+		break;
+}
+
+document.body.setScaledFont = function (f) {
+	switch (true) {
+		case mobileorientation():
+			var s = this.offsetWidth,
+				fs = s * (f / 60);
+			console.log("Scaling in mobile mode.");
+			break;
+		case this.offsetWidth < 1200:
+			var s = this.offsetWidth,
+				fs = s * (f / 90);
+			console.log(`Scaling in tablet mode. Width: ${this.offsetWidth}`);
+			break;
+		case this.offsetWidth <= 1600:
+			var s = this.offsetWidth,
+				fs = s * (f / 100);
+			console.log(`Scaling in laptop mode. Width: ${this.offsetWidth}`);
+			break;
+		case this.offsetWidth > 1600:
+			var s = this.offsetWidth,
+				fs = s * (f / 150);
+			console.log(`Scaling in desktop mode. Width: ${this.offsetWidth}`);
+			break;
+	}
+	this.style.fontSize = `${fs}%`;
+	return this;
+};
+
+window.onresize = () => {
+	document.body.setScaledFont(window.ScaleFontsTo);
+};
+document.body.setScaledFont(window.ScaleFontsTo);
 // }

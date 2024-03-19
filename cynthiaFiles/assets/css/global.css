@@ -32,10 +32,11 @@ body {
     left: 0;
     bottom: 0;
     right: 0;
-    font-size: 14px;
     margin: 0;
     padding: 15px;
 }
+
+
 
 .bottombar {
     border-radius: 30px 0 0 0;
@@ -52,7 +53,7 @@ body {
     font-style: italic;
     color: #3f5b48;
     text-align: center;
-    font-size: 20px;
+    font-size: 20%;
 }
 
 .pageinfosidebar {
@@ -105,7 +106,7 @@ main {
     border-radius: 0 0 15px 0;
     display: block;
     float: left;
-    font-size: 25px;
+    font-size: 25%;
     padding: 3px;
     text-align: center;
     text-decoration: none
@@ -113,7 +114,7 @@ main {
 .imgmote {
     background-color: var(--color-slot-4);
     border-radius: 3px;
-    font-size: 5px;
+    font-size: 5%;
     height: 8em;
     margin: .9px;
     width: 8em;

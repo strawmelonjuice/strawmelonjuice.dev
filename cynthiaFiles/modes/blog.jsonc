@@ -3,7 +3,7 @@
 	{
 		"sitename": "Mar's blog! &#x1F90D;",
 		"stylefile": "blog.css",
-		"favicon": "img/Strawmelonjuice.png",
+		"favicon": "img/sbm_512×512.png",
 		"handlebar": {
 			"post": "blog",
 			"page": "blog"
