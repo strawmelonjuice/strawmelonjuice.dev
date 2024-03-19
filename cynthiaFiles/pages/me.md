@@ -17,4 +17,4 @@ So I do. Question is: Will I ever finish writing and publish something?
 > 
 > <div>&#x2015; Me</div>
 
-Welcome around here! Like what I do? [Support me!](/?p=support) ❤️
+Welcome around here! Like what I do? [Support me!](/p/support) ❤️
