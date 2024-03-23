@@ -77,7 +77,12 @@ body.light-theme {
         #C8ECB5;
     --value-slot-3: brightness(0) saturate(100%);
     /*  */
-    background-image: url('/assets/img/bgraster.png');
+/*     background-image: url('/assets/img/bgraster.png'); */
+        background: url("/assets/img/bgraster.png")  no-repeat center center fixed;
+      -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 }
 
 body.dark-theme {
@@ -160,7 +165,12 @@ body.dark-theme {
         #3B1344;
     --value-slot-03: brightness(0) saturate(100%)invert(100%) sepia(7%) saturate(248%) hue-rotate(335deg) brightness(117%) contrast(90%);
     /*  */
-    background-image: url('/assets/img/bgraster_dark.png');
+    background: url("/assets/img/bgraster_dark.png")  no-repeat center center fixed;
+      -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+/*     background-image: url('/assets/img/bgraster_dark.png'); */
     /* filter: brightness(0.7); */
 }
 
