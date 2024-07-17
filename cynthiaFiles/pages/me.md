@@ -3,7 +3,7 @@
 <span class="sociallinks">[social links]</span>
 
 # About me
-Hello, I'm Mar! I'm a 19-year-old student from The Netherlands, waitress, music enjoyer, addict to creativity, writer and more.
+Hello, I'm Mar! I'm a 20-year-old student from The Netherlands, waitress, music enjoyer, addict to creativity, writer and more.
 
 Wait, you'll understand after you know what my favourite quote is:
 
