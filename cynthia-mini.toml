@@ -1,34 +1,34 @@
 [global]
-  # Theme to use for light mode - default themes: autumn, default
-  theme = "autumn"
-  # Theme to use for dark mode - default themes: night, default-dark
-  theme_dark = "night"
-  # For some browsers, this will change the colour of UI elements such as the address bar
-  # and the status bar on mobile devices.
-  # This is a hex colour, e.g. #FFFFFF
-  colour = "#FFFFFF"
-  # Your website's name, displayed in various places
-  site_name = "My Site"
-  # A brief description of your website
-  site_description = "A big site on a mini Cynthia!"
+# Theme to use for light mode - default themes: autumn, default
+theme = "autumn"
+# Theme to use for dark mode - default themes: night, default-dark
+theme_dark = "night"
+# For some browsers, this will change the colour of UI elements such as the address bar
+# and the status bar on mobile devices.
+# This is a hex colour, e.g. #FFFFFF
+colour = "#FFFFFF"
+# Your website's name, displayed in various places
+site_name = "My Site"
+# A brief description of your website
+site_description = "A big site on a mini Cynthia!"
 
-  [server]
-  # Port number for the web server
-  port = 8080
-  # Host address for the web server
-  host = "localhost"
+[server]
+# Port number for the web server
+port = 8080
+# Host address for the web server
+host = "localhost"
 
-  [integrations]
-  # Enable git integration for the website
-  # This will allow Cynthia Mini to detect the git repository
-  # For example linking to the commit hash in the footer
-  git = true
+[integrations]
+# Enable git integration for the website
+# This will allow Cynthia Mini to detect the git repository
+# For example linking to the commit hash in the footer
+git = true
 
-  [posts]
-  # Enable comments on posts using utteranc.es
-  # Format: "username/repositoryname"
-  #
-  # You will need to give the utterances bot access to your repo.
-  # See https://github.com/apps/utterances to add the utterances bot to your repo
-  comment_repo = ""
-  
+[posts]
+# Enable comments on posts using utteranc.es
+# Format: "username/repositoryname"
+#
+# You will need to give the utterances bot access to your repo.
+# See https://github.com/apps/utterances to add the utterances bot to your repo
+comment_repo = "strawmelonjuice/strawmelonjuice.dev"
+
