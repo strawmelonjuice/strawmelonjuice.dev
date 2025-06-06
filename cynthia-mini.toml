@@ -1,6 +1,6 @@
 [global]
 # Theme to use for light mode - default themes: autumn, default
-theme = "autumn"
+theme = "minimalist-light"
 # Theme to use for dark mode - default themes: night, default-dark
 theme_dark = "night"
 # For some browsers, this will change the colour of UI elements such as the address bar
@@ -8,9 +8,9 @@ theme_dark = "night"
 # This is a hex colour, e.g. #FFFFFF
 colour = "#FFFFFF"
 # Your website's name, displayed in various places
-site_name = "My Site"
+site_name = "Mar's site"
 # A brief description of your website
-site_description = "A big site on a mini Cynthia!"
+site_description = "M"
 
 [server]
 # Port number for the web server
