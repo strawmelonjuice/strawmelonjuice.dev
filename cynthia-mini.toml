@@ -1,8 +1,8 @@
 [global]
 # Theme to use for light mode - default themes: autumn, default
-theme = "minimalist-light"
+theme = "strawmelonjuice-light"
 # Theme to use for dark mode - default themes: night, default-dark
-theme_dark = "night"
+theme_dark = "strawmelonjuice-dark"
 # For some browsers, this will change the colour of UI elements such as the address bar
 # and the status bar on mobile devices.
 # This is a hex colour, e.g. #FFFFFF

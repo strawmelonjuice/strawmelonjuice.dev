@@ -1,0 +1,70 @@
+name: Deploy Cynthia Mini Site to GitHub Pages
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+  planned:
+    # Runs on a schedule, every Monday at 00:00 UTC
+    schedule:
+      - cron: "0 0 * * 1"
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Single deploy job since we're just deploying
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      # Fetch your site files from the repo
+      - name: Checkout
+        uses: actions/checkout@v4
+        # Preconfigure pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+        # Install Bun, the runtime that powers cynthiaweb-mini
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        # Install the cynthiaweb-mini weekly build from my personal fork
+      - name: Fetch cynthiaweb-mini
+        run: |
+          # download the cynthiaweb-mini package specifically built for this site
+          curl -L -o cynthiaweb-mini-weekly.tgz https://github.com/strawmelonjuice/Mini-strawmelonjuice.com/releases/download/weekly-build/cynthiaweb-mini-weekly.tgz
+          # extract the package to a temporary folder
+          mkdir build
+          tar -xzf cynthiaweb-mini-weekly.tgz -C build
+          # install the cynthiaweb-mini package by compiling it with Bun
+          bun build --compile build/dist/cynthia_websites_mini_server.js --outfile ./cynthiaweb-mini
+          # make sure the cynthiaweb-mini command is executable
+          chmod +x ./cynthiaweb-mini
+          # Remove the downloaded package and extracted folder to save space
+          rm cynthiaweb-mini-weekly.tgz
+          rm -rf build
+      # Let Cynthia Mini build the site
+      - name: Pregenerate
+        run: ./cynthiaweb-mini pregenerate
+      # Upload the generated site to the GitHub Pages artifact store
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Use the out folder as the artifact, which is the default output folder for cynthiaweb-mini
+          path: "./out/"
+      # Deploy the site to GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
