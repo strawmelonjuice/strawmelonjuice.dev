@@ -9,7 +9,7 @@
     else
         echo "✓ Bun is already installed."
     fi
-if ! command -v cynthiaweb-mini &> /dev/null; then
+if ! command -v ./cynthiaweb-mini &> /dev/null; then
     echo "cynthiaweb-mini not found, installing..."
   
     
