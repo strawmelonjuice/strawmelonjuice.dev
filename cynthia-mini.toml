@@ -32,3 +32,5 @@ git = true
 # See https://github.com/apps/utterances to add the utterances bot to your repo
 comment_repo = "strawmelonjuice/strawmelonjuice.dev"
 
+[variables]
+strawmelonjuice_badges = "path:./badges.json"
