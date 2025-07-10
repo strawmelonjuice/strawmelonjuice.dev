@@ -1,0 +1,7 @@
+{
+	"title": "Portfolio",
+	"description": "I am a creativity addict so I jiggle around with code from time to time.",
+	"layout": "theme",
+	"permalink": "/portfolio",
+	"data": { "type": "page_data", "in_menus": [1] }
+}

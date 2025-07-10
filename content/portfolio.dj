@@ -1,0 +1,55 @@
+# My Projects
+
+## Lumina
+
+| Github                                      | Codeberg                                      |
+|-------------------------------------------|---------------------------------------------|
+| <https://github.com/strawmelonjuice/lumina> | <https://codeberg.org/strawmelonjuice/lumina> |
+
+> One of my oldest concepts still alive. A social media-ish project,
+> obviously slightly ambitious \:)\
+> It'll a combine a tumblr-ish uniqueness (yes, uniqueness-- it will not
+> be a Tumblr clone), with a more or less decentralised design.
+
+## Cynthia Website Engine
+
+### Cynthia Website Engine Mini
+
+| GitHub                                         |
+|----------------------------------------------|
+| <https://github.com/CynthiaWebsiteEngine/Mini> |
+
+> This site is built using the Cynthia Website Engine Mini\! Cynthia
+> Mini allows you to create a website with less headache than Cynthia
+> Full. This because it uses a simpler syntax and comes with precomposed
+> themes.
+
+### Cynthia Website Engine Full
+
+| GitHub                                                    |
+|---------------------------------------------------------|
+| <https://github.com/strawmelonjuice/CynthiaWebsiteEngine> |
+
+> > Cynthia Full is currently unmaintained while I focus on school and
+> > other projects.
+> \
+> Cynthia Full once started as a markdown templating/rendering engine
+> written in PHP, now it's a high-performance webserver with full
+> plugin support and endless extensibility written in Rust.
+
+## Fruittools
+
+
+| Github                                      | Codeberg                                      |
+|-------------------------------------------|---------------------------------------------|
+| <https://github.com/strawmelonjuice/fruittools> | <https://codeberg.org/strawmelonjuice/fruittools> |
+
+> Fruittools are just a collection of CLI tools I write for personal use.
+
+
+## Other works
+
+> In addition to these ones, I like to help out, so you'll see my commits or username pop up in some places. Particularly lately the [Gleam](https://gleam.run/) ecosystem, but also in other places. Curious? Check out my [GitHub](https://github.com/strawmelonjuice?tab=activity#js-contribution-activity) and [Codeberg](https://codeberg.org/strawmelonjuice), and always feel free to [email me](mailto:mar@strawmelonjuice.com)!
+
+
+Like what I do and want to keep me going? [Consider supporting me <3](/support)
