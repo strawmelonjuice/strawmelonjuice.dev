@@ -69,6 +69,8 @@ jobs:
       # Let Cynthia Mini build the site
       - name: Pregenerate
         run: ./cynthiaweb-mini pregenerate
+      - name: Workaround for assets subdirectory
+        run: cp -r ./assets/ ./out/assets/
       # Upload the generated site to the GitHub Pages artifact store
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
