@@ -38,7 +38,18 @@ jobs:
         uses: actions/configure-pages@v5
         # Install Bun, the runtime that powers cynthiaweb-mini
       - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
+        uses: jdx/mise-action@v2
+        with:
+          version: 2024.12.14 # [default: latest] mise version to install
+          install: true # [default: true] run `mise install`
+          cache: true # [default: true] cache mise using GitHub's cache
+          experimental: true # [default: false] enable experimental features
+          # automatically write this mise.toml file
+          mise_toml: |
+            [tools]
+            bun = "latest"
+            pandoc = "latest"
+
         # Install the cynthiaweb-mini weekly build from my personal fork
       - name: Fetch cynthiaweb-mini
         run: |
