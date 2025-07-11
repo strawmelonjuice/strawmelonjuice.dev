@@ -10,7 +10,7 @@ colour = "#FFFFFF"
 # Your website's name, displayed in various places
 site_name = "Mar's site"
 # A brief description of your website
-site_description = "M"
+site_description = "Just MLC Bloeiman's site, a small blog, a few links and a portfolio."
 
 [server]
 # Port number for the web server
@@ -30,7 +30,7 @@ git = true
 #
 # You will need to give the utterances bot access to your repo.
 # See https://github.com/apps/utterances to add the utterances bot to your repo
-comment_repo = "strawmelonjuice/strawmelonjuice.dev"
+comment_repo = "strawmelonjuice/strawmelonjuice-site"
 
 [variables]
 strawmelonjuice_badges = """
