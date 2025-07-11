@@ -69,6 +69,8 @@ jobs:
       # Let Cynthia Mini build the site
       - name: Pregenerate
         run: ./cynthiaweb-mini pregenerate
+      - name: Create 404 redirect
+        run: echo '<html><head><script>window.location.replace("/#/404");</script></head><body>You are being redirected. Click <a href="/#/404">here</a> if it is not working.</body></html>' > ./out/404.html
       - name: Workaround for assets subdirectory
         run: cp -r ./assets/ ./out/assets/
       # Upload the generated site to the GitHub Pages artifact store
