@@ -1,0 +1,7 @@
+{
+	"title": "My link list",
+	"description": "I'm all over the web! 🍓🍉🥤",
+	"layout": "",
+	"permalink": "/links",
+	"data": { "type": "page_data", "in_menus": [1] }
+}
